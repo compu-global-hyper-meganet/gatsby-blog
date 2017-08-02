@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Sidebar from './sidebar'
 
-import './index.css'
+import './index.scss'
 
 const Header = () => (
   <div
@@ -46,6 +47,7 @@ const TemplateWrapper = ({
         ]}
       />
       <Header />
+      <Sidebar title="dougmcdonald.co.uk" intro="failed understandings and basic graspings" />
       <div
         style={{
           margin: '0 auto',
