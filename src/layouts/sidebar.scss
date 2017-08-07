@@ -2,45 +2,40 @@
   @import 'sass/variables.scss';
 
   @media (min-width: 48em) {
-    .sidebar {
-      position: fixed;
-      width: 25%;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      background-color: $grey;
-    }
+  .sidebar {
 
-    header {
-      margin: 80% 2em 0;
-      text-align: right;
-    }
+      header {
+        margin: 80% 2em 0;
+        text-align: right;
+      }    
 
-    h1 {
-      font-family: 'Roboto slab';
-      color: #fff;
-      font-size: 2em;
-      margin: 0;
-    }
+      h1 {
+        font-family: 'Roboto slab';
+        color: #fff;
+        font-size: 2em;
+        margin: 0;
+      }
 
-    h2 {
-      color: $grey-blue;
-      font-weight: normal;
-    }
+      h2 {
+        color: $grey-blue;
+        font-weight: normal; 
+      }
 
-    button {
-      border: 2px solid #fff;
-      color: $grey-blue;
-      padding: 1em 1em;
-      margin-left: 1em;
-      font-size: 0.7em;
-      font-weight: bold;
-      background: transparent;
-      border-radius: 2px;
-    }
+      .button {
+        border: 2px solid #fff;
+        color: $grey-blue;
+        padding: 1em 1em;
+        margin-left: 1em;
+        font-size: 0.7em;
+        font-weight: bold;
+        background: transparent;
+        border-radius: 2px;
+        text-decoration: none;
+      }
 
-    button:hover {
-      cursor: pointer;
-      background: #fff;
+      .button:hover {
+        cursor: pointer;
+        background: #fff;
+      }
     }
   }

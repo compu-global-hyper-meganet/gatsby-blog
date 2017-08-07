@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Doug McDonald`,
+    title: `dougmcdonald.co.uk`,
+    tagline: `failed understandings and basic graspings`
   },
   plugins: [
     `gatsby-plugin-sass`,

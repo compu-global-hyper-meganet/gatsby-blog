@@ -6,56 +6,19 @@ import Sidebar from './sidebar'
 
 import './index.scss'
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Doug McDonald
-            </Link>
-      </h1>
-    </div>
-  </div>
-)
-
 const TemplateWrapper = ({
   children
 }) => (
     <div>
       <Helmet
-        title="Gatsby Default Starter"
+        title="dougmcdonald.co.uk - failed understandings and basic graspings"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'description', content: 'dougmcdonald.co.uk - failed understandings and basic graspings' },
+          { name: 'keywords', content: 'something, something, something darkside' },
         ]}
       />
-      <Header />
       <Sidebar title="dougmcdonald.co.uk" intro="failed understandings and basic graspings" />
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '0px 1.0875rem 1.45rem',
-          paddingTop: 0,
-        }}
-      >
+      <div className="content">
         {children()}
       </div>
     </div>

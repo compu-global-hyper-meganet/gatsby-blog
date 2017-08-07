@@ -9,8 +9,8 @@ const Sidebar = ({ title, intro }) => (
     <header>
       <h1>{title}</h1>
       <h2>{intro}</h2>
-      <button className="primary-button">READ MY MIND</button>
-      <button className="secondary-button">SHOUT AT ME</button>
+      <Link className="button primary-button" to="/read">READ MY MIND</Link>
+      <Link className="button secondary-button" to="/shout">SHOUT AT ME</Link>      
     </header>
   </aside>
 )
