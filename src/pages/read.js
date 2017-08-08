@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import './sass/read.scss'
+
 export default function Read ({ data }) {
 
   const { edges: posts } = data.allMarkdownRemark;
@@ -18,7 +20,7 @@ export default function Read ({ data }) {
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
               </h2>
               <div className="blog-post-meta">
-                <h2>{post.frontmatter.date}</h2>
+                <p className="date">{post.frontmatter.date}</p>
                 {post.frontmatter.tags.map(tag =>
                   <span key={tag} className={`tag ${tag}`}>{tag}</span>
                 )}

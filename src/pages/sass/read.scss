@@ -1,0 +1,29 @@
+@import '../../layouts/sass/variables.scss';
+
+.blog-container {
+
+  .blog-post-preview {
+    h2 > a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+
+  .tag {
+    padding: 0.2em 0.5em;
+    margin-right: 1em;
+    color: #fff;
+  }
+
+  .tag1 {
+    background-color: $yellow;
+  }
+
+  .tag2 {
+    background-color: $blue;
+  }
+
+}
