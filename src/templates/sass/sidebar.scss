@@ -1,13 +1,20 @@
 
-  @import 'sass/variables.scss';
+  @import '../../layouts/sass/variables.scss';
 
   @media (min-width: 48em) {
   .sidebar {
 
+      position: fixed;
+      width: 25%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: $grey;
+
       header {
         margin: 80% 2em 0;
         text-align: right;
-      }    
+      }
 
       h1 {
         font-family: 'Roboto slab';
@@ -18,7 +25,7 @@
 
       h2 {
         color: $grey-blue;
-        font-weight: normal; 
+        font-weight: normal;
       }
 
       .button {

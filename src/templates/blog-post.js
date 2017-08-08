@@ -13,7 +13,7 @@ export default function Template({ data }) {
           <header>
             <h2>{post.frontmatter.title}</h2>
             <div className="blog-post-meta">
-              {post.frontmatter.tags.map(tag => 
+              {post.frontmatter.tags.map(tag =>
                 <span key={tag} className={`tag ${tag}`}>{tag}</span>
               )}
             </div>

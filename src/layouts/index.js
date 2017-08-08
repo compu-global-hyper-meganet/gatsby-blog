@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import Sidebar from './sidebar'
+import Sidebar from '../templates/sidebar'
 
 import './index.scss'
 
