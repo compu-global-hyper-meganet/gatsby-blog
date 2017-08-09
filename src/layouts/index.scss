@@ -3,11 +3,27 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-//Full sized layout
+// Mobile first
 
-@media (min-width: 48em) {
+.content {
+  padding: 2em 1em 0;
+}
+
+h2 {
+  color: $red;
+  margin-bottom: 0.2em;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Roboto slab';
+}
+
+// Full sized layout
+
+@media (min-width: 60em) {
 
   .content {
     margin-left: 25%;
@@ -16,18 +32,12 @@ body {
     padding-right: 3em;
     padding-bottom: 0px;
     padding-left: 3em;
+  }
 
-    h1 {
-      color: $red;
-    }
-
-    h2 {
-      font-size: 2em;
-      color: $red;
-      margin-bottom: 0.2em;
-      font-weight: 700; 
-    }
-
+  .header {
+      text-align: center;
+      top: auto;
+      margin: 3em auto;
   }
 
   footer {

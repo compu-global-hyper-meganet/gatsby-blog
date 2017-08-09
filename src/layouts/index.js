@@ -11,13 +11,13 @@ const TemplateWrapper = ({
 }) => (
     <div>
       <Helmet
-        title="dougmcdonald.co.uk - failed understandings and basic graspings"
+        title="dougmcdonald.co.uk"
         meta={[
-          { name: 'description', content: 'dougmcdonald.co.uk - failed understandings and basic graspings' },
+          { name: 'description', content: 'dougmcdonald.co.uk - basic concepts and failed understanding' },
           { name: 'keywords', content: 'something, something, something darkside' },
         ]}
       />
-      <Sidebar title="dougmcdonald.co.uk" intro="failed understandings and basic graspings" />
+      <Sidebar title="dougmcdonald.co.uk" intro="basic concepts and failed understanding" />
       <div className="content">
         {children()}
       </div>

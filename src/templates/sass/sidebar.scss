@@ -1,48 +1,70 @@
 
   @import '../../layouts/sass/variables.scss';
 
-  @media (min-width: 48em) {
+  // Mobile first
+
+  header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+  }
+
   .sidebar {
+    color: #fff;
+    background-color: $grey;
+    display: inline-block;
+    width: 100%;
+
+    & h2 {
+      margin: 0.5em 0;
+      font-size: 1.5em;
+      color: $grey-blue;
+      font-weight: normal;
+    }
+
+    .button {
+      border: 2px solid #fff;
+      color: $grey-blue;
+      padding: 1em 1em;
+      margin: 1em 0 1em 1em;
+      font-size: 0.7em;
+      font-weight: bold;
+      background: transparent;
+      border-radius: 2px;
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Open Sans';
+    }
+
+    .button:hover {
+      cursor: pointer;
+      background: #fff;
+    }
+
+  }
+
+  h1 {
+    font-family: 'Roboto slab';
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+  }
+
+
+  // Full size
+
+  @media (min-width: 60em) {
+    .sidebar {
 
       position: fixed;
       width: 25%;
       top: 0;
       bottom: 0;
       left: 0;
-      background-color: $grey;
 
       header {
-        margin: 80% 2em 0;
+        margin: 50% 2em 0;
         text-align: right;
-      }
-
-      h1 {
-        font-family: 'Roboto slab';
-        color: #fff;
-        font-size: 2em;
-        margin: 0;
-      }
-
-      h2 {
-        color: $grey-blue;
-        font-weight: normal;
-      }
-
-      .button {
-        border: 2px solid #fff;
-        color: $grey-blue;
-        padding: 1em 1em;
-        margin-left: 1em;
-        font-size: 0.7em;
-        font-weight: bold;
-        background: transparent;
-        border-radius: 2px;
-        text-decoration: none;
-      }
-
-      .button:hover {
-        cursor: pointer;
-        background: #fff;
       }
     }
   }

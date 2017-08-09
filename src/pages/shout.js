@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const Shout = () => (
   <div>
-    <h1>This will be a contact form</h1>
+    <h2>This will be a contact form</h2>
   </div>
 )
 
