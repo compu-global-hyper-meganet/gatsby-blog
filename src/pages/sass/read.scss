@@ -10,6 +10,18 @@
         color: $blue;
       }
     }
+
+    .excerpt {
+      font-family: 'Open Sans', sans-serif;
+      color: $grey;
+      font-size: 1.1em;
+    }
+
+    .date {
+      color: $grey-blue;
+      font-size: 0.8em;
+      margin-top: 0;
+    }
   }
 
   .tag {

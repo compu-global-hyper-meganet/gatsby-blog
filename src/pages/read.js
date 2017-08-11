@@ -25,12 +25,12 @@ export default function Read ({ data }) {
                   <span key={tag} className={`tag ${tag}`}>{tag}</span>
                 )}
               </div>
-              <p>{post.excerpt}</p>
+              <p className="excerpt">{post.excerpt}</p>
             </div>
             );
           })
         }
-        </div>
+      </div>
     );
 }
 
