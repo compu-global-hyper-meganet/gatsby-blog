@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Read from './read'
 
 export default function IndexPage ({ data }) {
-  return (<Read data={data}/>)
+  return (<Read />)
 }
 
 export const pageQuery = graphql`

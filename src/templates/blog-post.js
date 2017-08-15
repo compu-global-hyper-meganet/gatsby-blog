@@ -3,7 +3,8 @@ import Helmet from 'react-helmet';
 
 import './sass/blog-post.scss';
 // this prop will be injected by the GraphQL query we'll write in a bit
-export default function Template({ data }) {
+export default function BlogPost ({ data }) {
+  console.log(data);
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   return (
     <article>
@@ -28,7 +29,7 @@ export default function Template({ data }) {
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+      htm
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
