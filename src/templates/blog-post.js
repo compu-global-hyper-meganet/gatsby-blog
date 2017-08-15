@@ -29,7 +29,7 @@ export default function BlogPost ({ data }) {
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      htm
+      html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
