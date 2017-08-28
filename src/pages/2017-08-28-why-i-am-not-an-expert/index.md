@@ -1,7 +1,7 @@
 ---
 path: "/why-i-am-not-an-expert"
 date: "2017-08-09T13:04:10.962Z"
-title: "Understanding redux"
+title: "Why I'm not an expert"
 tags: [personal development, redux, state]
 ---
 
