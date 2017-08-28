@@ -26,6 +26,7 @@ build:
     # A step that executes `npm install` command
     - npm-install
 
+
     - script:
       name: gatsby build
       code: |
