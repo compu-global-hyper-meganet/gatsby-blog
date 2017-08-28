@@ -9,7 +9,7 @@ const Sidebar = ({ title, intro }) => (
     <header>
       <h1>doug<wbr/>mcdonald<wbr/>.co.uk</h1>
       <h2>{intro}</h2>
-      <Link className="button primary-button" to="/read">READ MY MIND</Link>
+      <Link className="button primary-button" to="/">READ MY MIND</Link>
       <wbr/>
       <Link className="button secondary-button" to="/shout">SHOUT AT ME</Link>
     </header>

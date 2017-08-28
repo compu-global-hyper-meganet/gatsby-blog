@@ -1,8 +1,9 @@
 @import 'sass/variables.scss';
+@import 'sass/fonts.scss';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -18,7 +19,7 @@ h2 {
   margin-bottom: 0.2em;
   font-weight: 700;
   font-size: 2em;
-  font-family: 'Roboto slab';
+  font-family: 'League Spartan';
 }
 
 // Full sized layout
