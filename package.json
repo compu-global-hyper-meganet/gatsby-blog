@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Doug McDonald - immovable blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Doug McDonald <dougajmcdonald@gmail.com>",
   "dependencies": {
     "gatsby": "^1.6.6",
     "gatsby-cli": "^1.0.8",
