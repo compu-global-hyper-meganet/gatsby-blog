@@ -10,6 +10,7 @@ const Index = ({ data }) => {
 
   return (
       <div className="blog-container">
+        <h1>LATEST POSTS</h1>
         <Helmet title={`Read My Mind @ dougmcdonald.co.uk`} />
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)

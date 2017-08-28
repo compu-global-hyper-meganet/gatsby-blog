@@ -16,7 +16,7 @@
 
     & h2 {
       margin: 0.5em 0;
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: $grey-blue;
       font-weight: normal;
     }
@@ -24,7 +24,7 @@
     .button {
       border: 2px solid #fff;
       color: $grey-blue;
-      padding: 1em 1em;
+      padding: 1.1em 1em 1em 1em;
       margin: 1em 0 1em 1em;
       font-size: 0.7em;
       font-weight: bold;
@@ -47,6 +47,7 @@
     color: #fff;
     font-size: 2em;
     margin: 0;
+    letter-spacing: 0.2em;
   }
 
 

@@ -1,42 +1,45 @@
 @import '../layouts/sass/variables.scss';
 
-.blog-container {
+.blog-container, .blog-post-container {
+
+  h1 {
+    font-family: 'League Spartan', 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: $blue;
+    letter-spacing: 0.3em;
+  }
 
   .blog-post-preview {
-    h2 > a {
-      color: inherit;
-      text-decoration: none;
-      &:hover {
-        color: lighten($red, 10%);
-      }
-    }
+
+    margin: 2em 0 4em 0;
 
     .excerpt {
       font-family: 'Open Sans', sans-serif;
       color: $grey;
       font-size: 1.1em;
     }
+  }
 
-    .date {
-      color: $grey-blue;
-      font-size: 0.8em;
-      margin-top: 0;
+  h2 > a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      color: lighten($red, 10%);
     }
   }
+
+  .date {
+    color: $grey-blue;
+    font-size: 0.8em;
+    margin-top: 0;
+  }
+
 
   .tag {
     padding: 0.2em 0.5em;
     margin-right: 1em;
     color: #fff;
     background-color: $grey;
-  }
-
-  .tag1 {
-    background-color: $yellow;
-  }
-
-  .tag2 {
-    background-color: $blue;
   }
 
   .devops {
