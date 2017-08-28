@@ -5,6 +5,7 @@ title: "Elastic stack for windows developers (and idiots)"
 tags: [devops, elastic]
 ---
 
-#Redux
->Is a predictable state container for react
+#Elastic stack
+
+TODO
 
