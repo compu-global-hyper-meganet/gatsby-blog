@@ -1,5 +1,49 @@
+@import '../../layouts/sass/variables.scss';
 
-.blog-post-content {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1em;
+.blog-post {
+
+  header > h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    margin: 1em;
+  }
+
+  .blog-post-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+
+    h1 {
+      letter-spacing: 0;
+    }
+
+    blockquote {
+      border-left: 0.5em solid lighten($grey, 50%);
+      padding: 1em 1em 1em 0.5em;
+      background-color: $off-white;
+
+      p {
+        margin-left: 1em;
+      }
+    }
+
+    pre {
+      background-color: $off-white;
+      padding: 1em;
+      width: 80%;
+      margin: 1em;
+      white-space: pre-wrap;       /* Since CSS 2.1 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+
+    code {
+      font-family: 'Courier Prime Code', 'Courier';
+      color: $grey;
+      font-size: 1.2em;
+
+    }
+  }
 }

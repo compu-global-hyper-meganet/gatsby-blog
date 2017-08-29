@@ -2,10 +2,10 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import './sass/blog-post.scss';
-// this prop will be injected by the GraphQL query we'll write in a bit
-export default function BlogPost ({ data }) {
-  console.log(data);
-  const { markdownRemark: post } = data; // data.markdownRemark holds our post data
+
+export default function Template ({ data }) {
+
+  const { markdownRemark: post } = data;
   return (
     <article>
       <div className="blog-post-container">

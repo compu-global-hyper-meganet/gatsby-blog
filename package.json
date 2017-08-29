@@ -1,18 +1,16 @@
 {
-  "name": "dougmcdonald-super-blog",
-  "description": "dougmcdonald.co.uk - gatsby blog",
+  "name": "gatsby-starter-default",
+  "description": "Doug McDonald - immovable blog",
   "version": "1.0.0",
-  "author": "Doug McDonald",
+  "author": "Doug McDonald <dougajmcdonald@gmail.com>",
   "dependencies": {
-    "css-loader": "^0.28.4",
     "gatsby": "^1.6.6",
-    "gatsby-link": "^1.6.7",
-    "gatsby-plugin-react-helmet": "^1.0.2",
+    "gatsby-cli": "^1.0.8",
+    "gatsby-link": "^1.6.6",
+    "gatsby-plugin-react-helmet": "^1.0.1",
     "gatsby-plugin-sass": "^1.0.2",
     "gatsby-source-filesystem": "^1.4.2",
-    "gatsby-transformer-remark": "^1.7.0",
-    "react-router-scroll": "github:ytase/react-router-scroll#991ecddb08885e1fb80ec1e9dbf3a35844b7d4cd",
-    "style-loader": "^0.18.2"
+    "gatsby-transformer-remark": "^1.7.0"
   },
   "keywords": [
     "gatsby"
@@ -26,6 +24,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby": "^1.6.6",
+    "gatsby-cli": "^1.0.8",
     "prettier": "^1.5.2"
   }
 }
