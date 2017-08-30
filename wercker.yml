@@ -30,7 +30,7 @@ build:
     - script:
       name: gatsby build
       code: |
-        npm install gatsby@1.6.6  -g
+        npm install gatsby@1.9.9  -g
         npm install gatsby-cli@1.0.8 -g
         gatsby build
 
