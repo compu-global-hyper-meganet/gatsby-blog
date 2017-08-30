@@ -10,7 +10,7 @@
   }
 
   .blog-post-content {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 1.1em;
 
     h1 {
@@ -33,9 +33,6 @@
       width: 80%;
       margin: 1em;
       white-space: pre-wrap;       /* Since CSS 2.1 */
-      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-      white-space: -pre-wrap;      /* Opera 4-6 */
-      white-space: -o-pre-wrap;    /* Opera 7 */
       word-wrap: break-word;       /* Internet Explorer 5.5+ */
     }
 
