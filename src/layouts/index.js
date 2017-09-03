@@ -4,7 +4,8 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Sidebar from '../templates/sidebar'
 
-import './index.scss'
+import './index.scss';
+import './sass/fonts.scss';
 
 const TemplateWrapper = ({
   children
