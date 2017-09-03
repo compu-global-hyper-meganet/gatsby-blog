@@ -7,9 +7,7 @@ import Sidebar from '../templates/sidebar'
 import './index.scss';
 import './sass/fonts.scss';
 
-const TemplateWrapper = ({
-  children
-}) => (
+const TemplateWrapper = ({ children }) => (
     <div>
       <Helmet
         title="dougmcdonald.co.uk"
