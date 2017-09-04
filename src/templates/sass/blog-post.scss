@@ -17,6 +17,15 @@
       letter-spacing: 0;
     }
 
+    h2 {
+      font-size: 1.5em;
+      color: $blue;
+    }
+
+    p {
+      margin-left: 1em;
+    }
+
     blockquote {
       border-left: 0.5em solid lighten($grey, 50%);
       padding: 1em 1em 1em 0.5em;
