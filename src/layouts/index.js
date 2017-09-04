@@ -6,6 +6,10 @@ import Sidebar from '../templates/sidebar'
 
 import './index.scss';
 
+import LeagueSpartan from 'typeface-league-spartan';
+import Aleo from 'typeface-aleo';
+import OpenSans from 'typeface-open-sans';
+
 const TemplateWrapper = ({ children }) => (
     <div>
       <Helmet
