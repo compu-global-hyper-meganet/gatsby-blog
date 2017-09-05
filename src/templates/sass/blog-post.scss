@@ -2,6 +2,8 @@
 
 .blog-post {
 
+  padding: 3em;
+
   header > h2 {
     text-transform: uppercase;
     font-size: 2em;
@@ -19,12 +21,12 @@
 
     h2 {
       font-family: 'Open Sans', 'sans-serif';
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: $blue;
     }
 
     p {
-      margin-left: 0.25em;
+      font-size: 1.1em;
     }
 
     blockquote {
@@ -53,4 +55,5 @@
 
     }
   }
+
 }

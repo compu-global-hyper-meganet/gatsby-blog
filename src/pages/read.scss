@@ -16,7 +16,8 @@
     .excerpt {
       font-family: "Open Sans", sans-serif;
       color: $grey;
-      font-size: 1.1em;
+      font-size: 1.3em;
+      line-height: 1.8em;
     }
   }
 
@@ -30,13 +31,12 @@
 
   .date {
     color: $grey-blue;
-    font-size: 0.8em;
     margin-top: 0;
   }
 
 
   .tag {
-    padding: 0.2em 0.5em;
+    padding: 0.5em 0.8em;
     margin-right: 1em;
     color: #fff;
     background-color: $grey;
@@ -48,6 +48,10 @@
 
   .elastic {
     background-color: $blue;
+  }
+
+  @media (min-width: 60em) {
+    margin: 2em 10em 4em 0;
   }
 
 }
