@@ -2,6 +2,8 @@
 
 .blog-container, .blog-post-container {
 
+  font-weight: 300;
+
   h1 {
     font-family: "League Spartan", "Open Sans", sans-serif;
     font-size: 1.2em;
@@ -51,7 +53,8 @@
   }
 
   @media (min-width: 60em) {
-    margin: 2em 10em 4em 2em;
+    margin: 2em 15em 4em 2em;
+    font-size: 1.2em;
   }
 
 }

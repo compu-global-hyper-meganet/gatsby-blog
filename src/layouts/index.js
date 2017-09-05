@@ -15,11 +15,11 @@ const TemplateWrapper = ({ children }) => (
       <Helmet
         title="dougmcdonald.co.uk"
         meta={[
-          { name: 'description', content: 'dougmcdonald.co.uk - basic concepts and failed understanding' },
-          { name: 'keywords', content: 'something, something, something darkside' },
+          { name: 'description', content: 'dougmcdonald.co.uk - things I understand, and many I don\'t' },
+          { name: 'keywords', content: 'Doug McDonald\'s personal blog on tech, gaming and personal development, not always in that order.' },
         ]}
       />
-      <Sidebar title="dougmcdonald.co.uk" intro="basic concepts and failed understanding" />
+      <Sidebar title="dougmcdonald.co.uk" intro="Web developer, golfer, dream weaver (not macromedia)" />
       <div className="content">
         {children()}
       </div>
