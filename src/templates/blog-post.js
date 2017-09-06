@@ -10,11 +10,11 @@ export default function Template ({ data }) {
     <article>
       <div className="blog-post-container">
         <Helmet title={`dougmcdonald.co.uk - ${post.frontmatter.title}`} />
-        <h1>{post.frontmatter.date}</h1>
         <div className="blog-post">
           <header>
             <h2>{post.frontmatter.title}</h2>
             <div className="blog-post-meta">
+              <p className="date">{post.frontmatter.date}</p>
               {post.frontmatter.tags.map(tag =>
                 <span key={tag} className={`tag ${tag}`}>{tag}</span>
               )}

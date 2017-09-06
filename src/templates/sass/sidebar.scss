@@ -14,11 +14,22 @@
     display: inline-block;
     width: 100%;
 
+    h1 {
+      font-family: 'Aleo';
+      color: #fff;
+      font-size: 2em;
+      margin: 0;
+      letter-spacing: 0.1em;
+    }
+
     & h2 {
-      margin: 0.5em 0;
+      margin: 1em 0 3em 0;
       font-size: 1.2em;
       color: $grey-blue;
       font-weight: normal;
+      font-family: 'Open Sans';
+      text-transform: uppercase;
+
     }
 
     .button {
@@ -27,7 +38,6 @@
       padding: 1.1em 1em 1em 1em;
       margin: 1em 0 1em 1em;
       font-size: 0.7em;
-      font-weight: bold;
       background: transparent;
       border-radius: 2px;
       text-decoration: none;
@@ -40,15 +50,19 @@
       background: #fff;
     }
 
+    .facehugger {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    .face {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+
   }
 
-  h1 {
-    font-family: 'Aleo';
-    color: #fff;
-    font-size: 2em;
-    margin: 0;
-    letter-spacing: 0.2em;
-  }
 
 
   // Full size
@@ -62,8 +76,16 @@
       bottom: 0;
       left: 0;
 
+      h1 {
+        border-bottom: 1px solid $red;
+        padding-bottom: 0.2em;
+      }
+
       header {
         margin: 50% 2em 0;
+        text-align: right;
+      }
+      .facehugger {
         text-align: right;
       }
     }

@@ -26,6 +26,8 @@
   h2 > a {
     color: inherit;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     &:hover {
       color: lighten($red, 10%);
     }
@@ -36,12 +38,17 @@
     margin-top: 0;
   }
 
-
   .tag {
     padding: 0.5em 0.8em;
-    margin-right: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
     color: #fff;
     background-color: $grey;
+    display: inline-block;
+  }
+
+  .tag:nth-child(2) {
+    margin-left: 0;
   }
 
   .devops {
@@ -50,6 +57,15 @@
 
   .elastic {
     background-color: $blue;
+  }
+
+  .gaming {
+    background-color: $grey-blue;
+  }
+
+  .personal-development, .react {
+    background-color: $off-white;
+    color: $grey;
   }
 
   @media (min-width: 60em) {
