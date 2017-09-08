@@ -7,7 +7,7 @@
   h1 {
     font-family: "League Spartan", "Open Sans", sans-serif;
     font-size: 1.2em;
-    color: $grey-blue;
+    color: $red;
     letter-spacing: 0.3em;
   }
 
@@ -21,6 +21,10 @@
       font-size: 1.3em;
       line-height: 1.8em;
     }
+  }
+
+  h2 {
+    text-shadow: $grey-blue 1px 1px 5px;
   }
 
   h2 > a {

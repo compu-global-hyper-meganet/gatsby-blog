@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Shout = () => (
-  <div>
-    <h2>This will be a contact form</h2>
+  <div className="blog-container">
+    <h1>CONTACT FORM</h1>
   </div>
 )
 
