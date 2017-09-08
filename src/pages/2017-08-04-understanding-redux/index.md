@@ -5,16 +5,16 @@ title: "Understanding redux"
 tags: [react, redux, state]
 ---
 
-#Redux
+## Intro
 >Is a predictable state container for react
 
-##What is it?
+## What is it?
 
 - The whole state of your app is stored in an object tree inside a single store.
 - The only way to change the state tree is to emit an action, an object describing what happened.
 - To specify how the actions transform the state tree, you write pure reducers.
 
-#somit
+## h2
 
 An example
 

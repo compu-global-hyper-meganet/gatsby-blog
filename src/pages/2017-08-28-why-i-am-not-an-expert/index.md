@@ -5,9 +5,6 @@ title: "Why I'm not an expert"
 tags: [personal-development]
 ---
 
-
-#Why I'm not an expert
-
 Working in a technical profession I am compelled to keep abreast of new tools and techniques; however the sheer volume of new languages, frameworks, libraries and associated best practice can make this compulsion exhausting!
 
 Beyond basic awareness many people have a desire to become experts in these tools before they feel comfortable using them. This aspiration can become paralysing, resulting in a fear or reluctance to move away from the comfort of previous experience.
@@ -22,12 +19,12 @@ This fear is normal, but unfounded; many years ago I took the conscious decision
 
 When choosing a technical platform for this blog I went through many different options before choosing [GatsbyJS](https://www.gatsbyjs.org/).
 
-### .NET MVC
+## .NET MVC
 
-### Ember
+## Ember
 
-### Vue
+## Vue
 
-### Redis &amp; Markdown
+## Redis &amp; Markdown
 
-### Gatsby
+## Gatsby

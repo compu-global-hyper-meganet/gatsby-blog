@@ -7,7 +7,7 @@
   h1 {
     font-family: "League Spartan", "Open Sans", sans-serif;
     font-size: 1.2em;
-    color: $blue;
+    color: $grey-blue;
     letter-spacing: 0.3em;
   }
 
@@ -29,6 +29,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     &:hover {
+      background-color: $off-white;
       color: lighten($red, 10%);
     }
   }
