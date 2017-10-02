@@ -30,6 +30,15 @@
       line-height: 1.4em;
     }
 
+    ul {
+      font-size: 1.4em;
+      line-height: 1.8em;
+    }
+
+    ul > li {
+      font-weight: 400;
+    }
+
     blockquote {
       border-left: 0.5em solid lighten($grey, 50%);
       padding: 1em 1em 1em 0.5em;
@@ -52,7 +61,7 @@
     code {
       font-family: 'Courier Prime Code', 'Courier';
       color: $grey;
-      font-size: 1.2em;
+      font-size: 1em;
 
     }
 
