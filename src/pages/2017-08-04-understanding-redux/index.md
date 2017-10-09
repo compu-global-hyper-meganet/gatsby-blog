@@ -26,7 +26,7 @@ Redux stores the whole state of your application in a single `store`. You can vi
 which is in reality just a JavaScript object.
 
 For example, an app storing blog posts might have a state tree which looks like this:
-
+```javascript
     {
       posts: [
         {
@@ -41,7 +41,7 @@ For example, an app storing blog posts might have a state tree which looks like 
         }
       ]
     }
-
+```
 By storing all the state in one location, it becomes easy to see how an application should respond, and by using React components which remain `pure`
 the rendered state of the app should be easy to predict.
 

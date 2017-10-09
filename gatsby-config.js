@@ -3,6 +3,7 @@ module.exports = {
     title: `dougmcdonald.co.uk`,
     tagline: `failed understandings and basic graspings`
   },
+  pathPrefix: '/',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

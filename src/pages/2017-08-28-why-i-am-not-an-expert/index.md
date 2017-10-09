@@ -21,6 +21,8 @@ This fear is normal, but unfounded; many years ago I took the conscious decision
 
 In a technical role, many people assume you must be an expert in the technologies you use. Whilst my Pluralsight IQ tests might suggest otherwise (shameless plug!) I would not class myself an expert in any particular technology.
 
+![Pluralsight IQ Tests](pluralsight.png "Pluralsight IQ Tests")
+
 Respected industry guru's such as Jon Skeet (C#) are clearly experts in their chosen technology and whilst I'm not suggesting they are only expert in one area, or are not highly capable in many others I feel that judging yourself against these standards is both inappropriate and counter productive.
 
 The parallel I would draw here is judging yourself against the edited highlights you can view via social media such as facebook or twitter, personally, when viewing a facebook feed, I see `great holiday` > `romantic anniversary gesture` > `new baby` > `house purchase` > <insert major life event> over and over. I don't judge myself against the best part of hundreds of friends and associates in a social sense, so why should you do the same professionally?

@@ -34,7 +34,7 @@ http://www.mavisbeaconfree.com/
 Unfortunately I wanted to learn at lunchtime at work and we aren't allowed to simply download any old software, so I can across Typing Club - https://www.typingclub.com/
 Whilst I think this may be geared up for schools it does have a nice interface showing which fingers to use, small segmented lessons and works online entirely.
 
-{Image}
+![Typing club UI](typing-club.png)
 
 
 ## Learning to touch type code
