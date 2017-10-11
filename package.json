@@ -8,8 +8,11 @@
     "gatsby-link": "^1.6.6",
     "gatsby-plugin-react-helmet": "^1.0.4",
     "gatsby-plugin-sass": "^1.0.10",
+    "gatsby-remark-images": "^1.5.15",
+    "gatsby-remark-prismjs": "^1.2.8",
     "gatsby-source-filesystem": "^1.4.2",
     "gatsby-transformer-remark": "^1.7.0",
+    "node-sass": "^4.5.3",
     "typeface-aleo": "0.0.31",
     "typeface-league-spartan": "0.0.39",
     "typeface-open-sans": "0.0.35"

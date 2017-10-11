@@ -23,7 +23,8 @@ const getIntro = () => {
     'Powered by caffeine',
     'Just about awake',
     'Desirable on LinkedIn',
-    ''
+    'Work hard and be nice to people',
+    'Constant procrastinator'
   ];
 
   const position = generateRandomInteger(introList.length);
