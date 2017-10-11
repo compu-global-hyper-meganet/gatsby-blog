@@ -27,20 +27,20 @@ which is in reality just a JavaScript object.
 
 For example, an app storing blog posts might have a state tree which looks like this:
 ```javascript
+{
+  posts: [
     {
-      posts: [
-        {
-          id: 1,
-          title: `my first blog post`,
-          content: `...`
-        },
-        {
-          id: 2,
-          title: `another blog post`,
-          content: `...`
-        }
-      ]
+      id: 1,
+      title: `my first blog post`,
+      content: `...`
+    },
+    {
+      id: 2,
+      title: `another blog post`,
+      content: `...`
     }
+  ]
+}
 ```
 By storing all the state in one location, it becomes easy to see how an application should respond, and by using React components which remain `pure`
 the rendered state of the app should be easy to predict.
@@ -52,14 +52,16 @@ There are some gotcha's with how to actually structure you state in Redux to mak
 This might seem counter intuitive, but what this means is that in order to change the state you must emit or `dispatch` an `action` rather than directly mutating the state.
 Actions in Redux and other state management systems like Flux, express an intent to transform the state. An action might look like this:
 
-    {
-      type: 'ADD_BLOG_POST',
-      post: {
-        id: 3,
-        title: `three is the magic number`
-        content : `...`
-      }
-    }
+```javascript
+{
+  type: 'ADD_BLOG_POST',
+  post: {
+    id: 3,
+    title: `three is the magic number`
+    content : `...`
+  }
+}
+```
 
 If you've never worked with Flux, or Redux before these concepts might be a bit alien, later on I will show an example of how to tie these bits together which to be honest is
 probably the most complex bit of Redux.
@@ -72,25 +74,27 @@ which is copied from the old one.
 
 A reducer function for our blog posts might look something like this:
 
-    const blogPostReducer = (state = {}, action) => {
+```javascript
+const blogPostReducer = (state = {}, action) => {
 
-      // this copied our old state into a new object so as not to mutate it
-      let nextState = Object.assign({}, state);
+  // this copied our old state into a new object so as not to mutate it
+  let nextState = Object.assign({}, state);
 
-      switch (action.type) {
-        case: `ADD_BLOG_POST`:
+  switch (action.type) {
+    case: `ADD_BLOG_POST`:
 
-            // this may look like a mutation
-            // but we're not changing the old state
-            // only the new state.
-            nextState.posts.push(action.post);
+        // this may look like a mutation
+        // but we're not changing the old state
+        // only the new state.
+        nextState.posts.push(action.post);
 
-            return newState;
-          break;
-        default:
-          return nextState;
-      }
-    }
+        return newState;
+      break;
+    default:
+      return nextState;
+  }
+}
+```
 
 I dropped in the term `pure` function in the previous sentence, if you're not sure what a `pure` function is, it's a function which has no side effects and is predictable in what it does based on it's inputs. A side effect in this context would be something like calling an external API, or retrieving data from a database. The term itself is borrowed from functional programming and Wikipedia goes into more detail if you're interested https://en.wikipedia.org/wiki/Pure_function
 

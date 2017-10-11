@@ -9,6 +9,7 @@ import './index.scss';
 import LeagueSpartan from 'typeface-league-spartan';
 import Aleo from 'typeface-aleo';
 import OpenSans from 'typeface-open-sans';
+import prism from 'prismjs/themes/prism-okaidia.css';
 
 const getIntro = () => {
 

@@ -53,22 +53,6 @@
       }
     }
 
-    pre {
-      background-color: $off-white;
-      padding: 1em;
-      width: 80%;
-      margin: 1em;
-      white-space: pre-wrap;       /* Since CSS 2.1 */
-      word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    }
-
-    code {
-      font-family: 'Courier Prime Code', 'Courier';
-      color: $grey;
-      font-size: 1em;
-
-    }
-
     @media (min-width: 60em) {
       p {
         font-size: 1.2em;
