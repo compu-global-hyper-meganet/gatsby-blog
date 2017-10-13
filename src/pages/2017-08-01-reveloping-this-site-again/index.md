@@ -10,39 +10,35 @@ Each of those options represented a technology I have personally experienced and
 
 If I was a depth first person, I would still be using the first toolset I came across whilst I may well have become expert in this, I would be an expert in tools of the past. As an alternative, I have worked with far more tools, experience (probably) far more pain, but experience so much more, met some great people in the Open Source community and ended up putting myself out there a lot more.
 
-My advice is to invest your time in experiencing as many new tools, frameworks and approaches as possible, the reward for this will be the experience to chose what frameworks
+Read my article on [Why I'm not an expert](/why-i-am-not-an-expert) to hear more about depth vs breadth first learning.
 
 ### .NET MVC
 
+Initially I wrote this site in C#.NET MVC a few years ago as this was my day to day development language, it was familiar and easy to me but at the same time fundamentally less rewarding. I wasn't adding the complex features I was being asked to add at work and the front end razor view engine based templates were quite a long way from modern front end / single page applucation (SPA) type development which was more interesting.
+
+Adding blog posts was a pain as I hadn't used a CMS and wasn't really interesting in writing one, so the process for writing new content was to write the HTML by hand add in new routes manually, styling the articles as I went. Doing all this by hand was labourious, ensuring I consistently used my own styles over time became a bore and whilst it was a successful implementation the inclination to keep it maintained over time dwindled.
+
+The resulted in the clarification of the purpose of the blog and methods to use. The goal for the new blog was to allow the adding of content more easily and using more interesting front end technologies that I could use as a basis for learning.
+
 ### Ember
+
+Attempt number two used [Ember](https://www.emberjs.com/) as I had recently experienced the library in a commercial environment where I had enjoyed the component based development and learning the structure of an Ember app.
+
+The initial development hit a few hurdles when I tried to add in the materialize css library as part of a design choice. Firstly I hit all kinds of issues getting things installed properly through the ember-cli. Eventually these were overcome but it soured the experience.
+Couple this with my personal lack of understanding about the effective use of material design and what I wanted for the blog design wise which was something simple, focussed on the typography. I felt limited by some of the material design choices, but simultaneously as if I wasn't making the best use of it.
+
+Finally with these tools, I encountered no end of issues deploying to my Azure app service from code on github. Primarily this was because although you can run node commands through the GitHub > Azure integration it's not the greatest experience.
+The backend would need to run Node on Azure, but also I'd need to perform a build of the ember site as part of the deployment process, this is more tricky than it should be.
+Many hours was lost trying to hack together Kudu scripts to install the npm dependencies, perform a build inside azure and copy the right output to the right folder.
+
+Eventually I did get this working, but then it broke again due to some hidden Azure change and I was unable to resolve it this time, enter [Wercker](http://www.wercker.com/). Wercker is a cloud based platform for CI build and deployment tasks. It's built on top of Kubernetes and allows you to do cool things like spin up a linux based node container, run build, test and deployments and then blow it away.
+
+Wercker got things working (pardon the pun) between GitHub, and Ember client side build and an Azure FTP deployment but the painful past, along with a mistaken usage of materialise for design had turned me off the stack.
+
+The takeaways here were that I didn't need something as heavyweight as Ember for a personal blog in terms of all the cool testing and mocking bits it comes with, node builds on Azure weren't fun without an intemdiary such as Wercker and I didn't need / want to use Materialize CSS for this project.
 
 ### Vue
 
 ### Redis &amp; Markdown
 
 ### Gatsby
-
-
-Working in a technical profession I am compelled to keep abreast of new tools and techniques; however the sheer volume of new languages, frameworks, libraries and associated best practice can make this compulsion exhausting!
-
-Beyond basic awareness many people have a desire to become experts in these tools before they feel comfortable using them. This aspiration can become paralysing, resulting in a fear or reluctance to move away from the comfort of previous experience.
-
-This fear is normal, but unfounded; many years ago I took the conscious decision to opt for a breadth first learning approach. I had not heard the term at the time and it was more a desire to understand all the options before diving in but I have continued to focus on learning new things versus becoming expert in one.
-
-> You can listen to an excellent talk from Don Norman describing depth
-> and breadth first learning here
-> [https://www.ted.com/talks/don_norman_on_design_and_emotion/](https://www.ted.com/talks/don_norman_on_design_and_emotion/)
-
-
-
-When choosing a technical platform for this blog I went through many different options before choosing [GatsbyJS](https://www.gatsbyjs.org/).
-
-## .NET MVC
-
-## Ember
-
-## Vue
-
-## Redis &amp; Markdown
-
-## Gatsby
