@@ -28,7 +28,7 @@ export default function Template ({ data }) {
         <ReactDisqusThread
                 shortname="dougmcdonald"
                 title={post.frontmatter.title}
-                onNewComment={this.handleNewComment}/>
+                onNewComment={() => {}}/>
       </div>
     </article>
   );
