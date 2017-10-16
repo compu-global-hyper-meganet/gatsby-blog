@@ -14,6 +14,16 @@
     display: inline-block;
     width: 100%;
 
+        header {
+      margin: 1em auto;
+      h2 {
+        margin-bottom: 1em;
+      }
+      .facehugger {
+        margin-bottom: 0;
+      }
+    }
+
     h1 {
       font-family: 'Aleo';
       color: #fff;
@@ -29,7 +39,6 @@
       font-weight: normal;
       font-family: 'Open Sans';
       text-transform: uppercase;
-
     }
 
     .button {
@@ -71,6 +80,7 @@
   // Full size
 
   @media (min-width: 60em) {
+
     .sidebar {
 
       position: fixed;
@@ -86,9 +96,15 @@
       header {
         margin: 50% 2em 0;
         text-align: right;
-      }
-      .facehugger {
-        text-align: right;
+
+        h2 {
+          margin-bottom: 3em;
+        }
+
+        .facehugger {
+          text-align: right;
+          margin-bottom: 2em;
+        }
       }
     }
   }

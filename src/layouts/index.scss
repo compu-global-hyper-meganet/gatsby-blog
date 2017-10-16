@@ -20,6 +20,14 @@ h2 {
   font-family: 'League Spartan';
 }
 
+.blog-post {
+  header {
+    text-align: center;
+    top: auto;
+    margin: 0 auto;
+  }
+}
+
 // Full sized layout
 
 @media (min-width: 60em) {
@@ -31,12 +39,6 @@ h2 {
     padding-right: 3em;
     padding-bottom: 0px;
     padding-left: 3em;
-  }
-
-  .header {
-      text-align: center;
-      top: auto;
-      margin: 3em auto;
   }
 
   footer {
