@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import ReactDisqusThread from 'react-disqus-thread'
 
 import './sass/blog-post.scss';
 
@@ -22,6 +23,12 @@ export default function Template ({ data }) {
           </header>
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
+      </div>
+      <div className="comment-container">
+        <ReactDisqusThread
+                shortname="dougmcdonald"
+                title={post.frontmatter.title}
+                onNewComment={this.handleNewComment}/>
       </div>
     </article>
   );

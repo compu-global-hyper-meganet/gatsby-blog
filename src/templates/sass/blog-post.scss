@@ -85,6 +85,18 @@
         font-size: 1.2em;
       }
     }
-  }
 
+
+  }
+}
+
+.comment-container {
+  padding: 1em;
+}
+
+@media (min-width: 60em) {
+
+  .comment-container {
+    padding: 2em 12em 4em 4em;
+  }
 }

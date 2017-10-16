@@ -22,7 +22,7 @@ const Sidebar = ({ title, intro }) => (
       <Link className="button primary-button" to="/">READ MY MIND</Link>
       <wbr/>
       <Link className="button secondary-button" to="/shout">SHOUT AT ME</Link>
-      <SocialIcons urls={urls} color="#fff" />
+      <SocialIcons urls={urls} color="rgba(255, 255, 255, 0.8)" />
     </header>
   </aside>
 )
