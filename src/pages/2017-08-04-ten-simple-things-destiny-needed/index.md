@@ -1,8 +1,9 @@
 ---
 path: "/ten-simple-things-destiny-needed"
-date: "2017-09-04T20:56:55.962Z"
+date: "2017-08-04T20:56:55.962Z"
 title: "Ten simple things Destiny 1 needed"
 tags: [destiny, gaming]
+draft: false
 ---
 
 I write this as a Destiny 1 player who played on day one, hated the game at that point and came back a few months ago having spent the last year playing The Division for much of the interim as a comparison.

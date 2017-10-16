@@ -13,7 +13,7 @@ const Index = ({ data }) => {
         <h1>LATEST POSTS</h1>
         <Helmet title={`Read My Mind @ dougmcdonald.co.uk`} />
         {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
+          .filter(post => post.node.frontmatter.title.length > 0 && post.node.frontmatter.draft == false)
           .map(({ node: post }) => {
             return (
             <div className="blog-post-preview" key={post.id}>
@@ -49,36 +49,10 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             tags
+            draft
           }
         }
       }
     }
   }
 `;
-
-// import React from 'react'
-// import Link from 'gatsby-link'
-// import Read from './read'
-
-// export default function IndexPage ({ data }) {
-//   return (<Read data={data}/>)
-// }
-
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-//       edges {
-//         node {
-//           excerpt(pruneLength: 250)
-//           id
-//           frontmatter {
-//             title
-//             date(formatString: "MMMM DD, YYYY")
-//             path
-//             tags
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;

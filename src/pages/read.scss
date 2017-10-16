@@ -23,10 +23,6 @@
     }
   }
 
-  // h2 {
-  //   text-shadow: $grey-blue 1px 1px 5px;
-  // }
-
   h2 > a {
     color: inherit;
     text-decoration: none;
@@ -68,7 +64,15 @@
     background-color: $grey-blue;
   }
 
-  .personal-development, .react {
+  .react {
+    background-color: $react-blue;
+  }
+
+  .redux {
+    background-color: $redux-purple;
+  }
+
+  .personal-development {
     background-color: $off-white;
     color: $grey;
   }

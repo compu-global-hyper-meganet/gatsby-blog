@@ -3,6 +3,7 @@ path: "/redeveloping-this-site-again"
 date: "2017-08-01T19:43:55.962Z"
 title: "Redeveloping this site (again)"
 tags: [development, gatsby]
+draft: true
 ---
 
 When choosing a technical platform for this blog I went through many different options before choosing [GatsbyJS](https://www.gatsbyjs.org/).

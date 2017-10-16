@@ -3,6 +3,7 @@ path: "/why-i-am-not-an-expert"
 date: "2017-08-28T19:43:55.962Z"
 title: "Why I'm not an expert"
 tags: [personal-development]
+draft: false
 ---
 
 ## Why it's worth trying new things

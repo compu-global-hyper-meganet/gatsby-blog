@@ -3,6 +3,7 @@ path: "/learning-to-touch-type"
 date: "2017-10-09T13:32:10.962Z"
 title: "Learning to touch type"
 tags: [personal-development]
+draft: true
 ---
 
 ## Intro
