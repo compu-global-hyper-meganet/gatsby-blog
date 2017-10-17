@@ -26,7 +26,6 @@ export default function Template ({ data }) {
       </div>
       <div className="comment-container">
         <ReactDisqusThread
-                url={post.frontmatter.path}
                 shortname="dougmcdonald"
                 title={post.frontmatter.title}
                 onNewComment={() => {}}/>
