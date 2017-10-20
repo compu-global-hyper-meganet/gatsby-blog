@@ -1,13 +1,34 @@
-# gatsby-starter-default
-The default Gatsby starter
+# dougmcdonald.co.uk - gatsby blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+The `final` implementation of [dougmcdonald.co.uk](dougmcdonald.co.uk) a personal blog.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+Mobile first design
 
-## Deploy
+## Run it
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- clone the repo
+- npm i (pray you have all the annoying node-gyp setup on windows)
+- gatsby develop
+  - access (localhost:8000)[localhost:8000]
+
+
+## Deployment
+
+The site is deployed via a wercker pipeline to microsoft azure - this was the best way I could get the site to build and deploy. I was unable to find a way to deploy through Github > Azure directly
+
+## Features
+
+### Completed
+- GatsbyJS static content generation
+- Markdown processing for articles via `gatsby-transformer-remark`
+- Disqus comments via `react-disqus-thread`
+- Webfonts via npm and `https://github.com/KyleAMathews/typefaces`
+- Prism highlighting for code in markdown via `gatsby-remark-prismjs`
+- Responsive image generation and linking from markdown via `gatsby-remark-images`
+- SSL setup on Azure via `Let's Encrypt`
+
+### TODO
+- Google analytics
+- Contact form
+- About page
+
