@@ -12,9 +12,10 @@ Many people I've spoken to have expressed a desire to become experts in these to
 
 In many ways I feel that the Facebook motto
 > Move fast and break things (which has now been amended) [Facebook changes motto](http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/)
+
 Is similar to what I'm promoting here it's not universally applicable there are many safety or security cases where expert knowledge is neccessary [XKCD](https://xkcd.com/1428/) sums this up nicely
 
-![XKCD - Move fast and break things](https://imgs.xkcd.com/comics/move_fast_and_break_things.png)
+![XKCD - Move fast and break things](move_fast_and_break_things.png)
 
 Anyway, excluding certain specific cases I feel the aspiration to become expert before using something can at best be paralysing or at worse invoke fear, leading to a reluctance to move away from known comfort areas.
 This fear is normal, but unfounded; many years ago I took the conscious decision to opt for a breadth first learning approach. I had not heard the term at the time and it was more a desire to understand all the options before diving in but I have continued to focus on learning new things versus becoming expert in one.

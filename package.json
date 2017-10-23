@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "author": "Doug McDonald <dougajmcdonald@gmail.com>",
   "dependencies": {
+    "emotion": "^8.0.9",
+    "emotion-server": "^8.0.9",
     "gatsby-link": "^1.6.6",
+    "gatsby-plugin-emotion": "^1.1.8",
     "gatsby-plugin-react-helmet": "^1.0.4",
     "gatsby-plugin-sass": "^1.0.10",
     "gatsby-remark-images": "^1.5.15",
