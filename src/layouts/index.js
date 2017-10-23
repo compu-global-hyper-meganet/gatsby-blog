@@ -58,4 +58,4 @@ TemplateWrapper.propTypes = {
   children: PropTypes.func,
 }
 
-export default TemplateWrapper
+export default TemplateWrapper;

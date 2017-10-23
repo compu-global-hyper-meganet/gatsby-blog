@@ -1,6 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
+import Filter from '../templates/filter';
+import Tags from '../templates/tags';
 
 import './read.scss';
 
@@ -8,9 +10,16 @@ const Index = ({ data }) => {
 
   const { edges: posts } = data.allMarkdownRemark;
 
+  const options = [
+    `personal-development`,
+    `gaming`,
+    `react`
+  ];
+
   return (
       <div className="blog-container">
         <h1>LATEST POSTS</h1>
+        {/* <Filter options={options} /> */}
         <Helmet title={`Read My Mind @ dougmcdonald.co.uk`} />
         {posts
           .filter(post => post.node.frontmatter.title.length > 0 && post.node.frontmatter.draft == false)
@@ -22,9 +31,7 @@ const Index = ({ data }) => {
               </h2>
               <div className="blog-post-meta">
                 <p className="date">{post.frontmatter.date}</p>
-                {post.frontmatter.tags.map(tag =>
-                  <span key={tag} className={`tag ${tag}`}>{tag}</span>
-                )}
+                <Tags tags={post.frontmatter.tags} />
               </div>
               <p className="excerpt">{post.excerpt}</p>
             </div>

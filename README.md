@@ -26,9 +26,12 @@ The site is deployed via a wercker pipeline to microsoft azure - this was the be
 - Prism highlighting for code in markdown via `gatsby-remark-prismjs`
 - Responsive image generation and linking from markdown via `gatsby-remark-images`
 - SSL setup on Azure via `Let's Encrypt`
+- Google analytics
 
 ### TODO
-- Google analytics
+
 - Contact form
 - About page
+- Article filter
+- More articles
 

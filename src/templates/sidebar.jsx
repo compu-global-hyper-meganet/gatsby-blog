@@ -3,29 +3,9 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import { SocialIcons } from 'react-social-icons';
 import { css } from 'emotion';
+import colours from '../colours';
 
-//import './sass/sidebar.scss';
 import DougHead from './../images/DougHead.fw.png';
-
-// $grey: #140F2D;
-// $grey-blue: #628395;
-// $red: #D72638;
-// $yellow: #F49D37;
-// $blue: #3F88C5;
-// $off-white: #eeeeef;
-// $react-blue: #61dafb;
-// $redux-purple: #7848BF;
-
-const colours = {
-  grey: `#140F2D`,
-  grey_blue: `#628395`,
-  red: `#D72638`,
-  yellow: `#F49D37`,
-  blue: `#3F88C5`,
-  off_white: `#eeeeef`,
-  react_blue: `#61dafb`,
-  redux_purple: `#7848BF`
-};
 
 const sidebarStyles = css`
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import ReactDisqusThread from 'react-disqus-thread'
+import Tags from './tags';
 
 import './sass/blog-post.scss';
 
@@ -16,9 +17,7 @@ export default function Template ({ data }) {
             <h2>{post.frontmatter.title}</h2>
             <div className="blog-post-meta">
               <p className="date">{post.frontmatter.date}</p>
-              {post.frontmatter.tags.map(tag =>
-                <span key={tag} className={`tag ${tag}`}>{tag}</span>
-              )}
+              <Tags tags={post.frontmatter.tags} />
             </div>
           </header>
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />

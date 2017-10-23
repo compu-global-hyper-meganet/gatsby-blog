@@ -39,44 +39,6 @@
     margin-top: 0;
   }
 
-  .tag {
-    padding: 0.5em 0.8em;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    color: #fff;
-    background-color: $grey;
-    display: inline-block;
-  }
-
-  .tag:nth-child(2) {
-    margin-left: 0;
-  }
-
-  .devops {
-    background-color: $yellow;
-  }
-
-  .elastic {
-    background-color: $blue;
-  }
-
-  .gaming {
-    background-color: $grey-blue;
-  }
-
-  .react {
-    background-color: $react-blue;
-  }
-
-  .redux {
-    background-color: $redux-purple;
-  }
-
-  .personal-development {
-    background-color: $off-white;
-    color: $grey;
-  }
-
   @media (min-width: 60em) {
     margin: 2em 12em 4em 2em;
     font-size: 1.2em;
