@@ -8,12 +8,14 @@
     text-transform: uppercase;
     font-size: 2.2em;
     letter-spacing: 0.2em;
-    margin: 1em 1em 0.5em 1em;
+    margin: 1em 0.5em 0.5em 0.5em;
     overflow-wrap: break-word;
   }
 
   .blog-post-content {
     font-family: 'Open Sans', 'sans-serif';
+    font-weight: normal;
+    font-size: 1em;
 
     h1 {
       letter-spacing: 0;
@@ -27,8 +29,8 @@
     }
 
     p {
-      font-size: 1.2em;
-      line-height: 1.4em;
+
+      line-height: 1.6em;
 
       img {
         width: 100%;
@@ -82,7 +84,7 @@
       }
 
       p {
-        font-size: 1.2em;
+        font-size: 1em;
       }
     }
 

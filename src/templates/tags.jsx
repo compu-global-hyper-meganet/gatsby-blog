@@ -6,7 +6,6 @@ import colours from '../colours';
 
 const tagStyles = css`
 
-  font-size: 0.75em;
   padding: 0.3em 0.7em;
   margin-right: 0.5em;
   margin-left: 0.5em;
@@ -15,10 +14,13 @@ const tagStyles = css`
   display: inline-block;
 
 
-  .tag:nth-child(2) {
+  &:first-child {
     margin-left: 0;
   }
 
+  @media (min-width: 60em) {
+    font-size: 0.75em;
+  }
 `;
 
 const tagColours = css`
