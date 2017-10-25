@@ -28,15 +28,15 @@ const selectStyles = css`
 
 `;
 
-const Filter = ({ options }) => {
+const Filter = ({ options, onChange }) => {
 
   return (
     <div className={filterStyles}>
       Filter
-      <select>
+      <select onChange={onChange}>
         {
           options.map((option) => {
-            return <option>{option}</option>
+            return <option key={option}>{option}</option>
           })
         }
       </select>

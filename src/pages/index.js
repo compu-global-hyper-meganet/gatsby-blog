@@ -8,7 +8,7 @@ import './read.scss';
 
 const Index = ({ data }) => {
 
-  const { edges: posts } = data.allMarkdownRemark;
+  let { edges: posts } = data.allMarkdownRemark;
 
   const options = [
     `personal-development`,
@@ -19,10 +19,12 @@ const Index = ({ data }) => {
   return (
       <div className="blog-container">
         <h1>LATEST POSTS</h1>
-        {/* <Filter options={options} /> */}
+        {/* <Filter options={options} onChange={e => { console.log(e.target.value) }} /> */}
         <Helmet title={`Read My Mind @ dougmcdonald.co.uk`} />
         {posts
-          .filter(post => post.node.frontmatter.title.length > 0 && post.node.frontmatter.draft == false)
+          .filter(post =>
+            post.node.frontmatter.title.length > 0 &&
+            post.node.frontmatter.draft == false)
           .map(({ node: post }) => {
             return (
             <div className="blog-post-preview" key={post.id}>
