@@ -14,16 +14,6 @@ const sidebarStyles = css`
     display: inline-block;
     width: 100%;
 
-    header {
-      margin: 1em auto;
-      h2 {
-        margin-bottom: 1em;
-      }
-      .facehugger {
-        margin-bottom: 0;
-      }
-    }
-
     h1 {
       font-family: 'Aleo';
       color: #fff;
@@ -32,36 +22,13 @@ const sidebarStyles = css`
       letter-spacing: 0.1em;
     }
 
-    & h2 {
+    h2 {
       margin: 1em 0 3em 0;
       font-size: 1.2em;
       color: ${colours.grey_blue};
       font-weight: normal;
       font-family: 'Open Sans';
       text-transform: uppercase;
-    }
-
-    .button {
-      border: 2px solid #fff;
-      color: ${colours.grey_blue};
-      padding: 1.1em 1em 1em 1em;
-      margin: 1em 0 1em 1em;
-      font-size: 0.7em;
-      background: transparent;
-      border-radius: 2px;
-      text-decoration: none;
-      display: inline-block;
-      font-family: 'League Spartan';
-    }
-
-    .button:hover {
-      cursor: pointer;
-      background: #fff;
-    }
-
-    .facehugger {
-      text-align: center;
-      margin-bottom: 2em;
     }
 
     .face {
@@ -87,24 +54,54 @@ const sidebarStyles = css`
       h1 {
         padding-bottom: 0.2em;
       }
+  }
+`;
 
-      header {
-        margin: 50% 2em 0;
-        text-align: right;
+const headerStyles = css`
 
-        h2 {
-          margin-bottom: 3em;
-        }
+  text-align: center;
+  top: auto;
+  margin: 3em auto;
 
-        .facehugger {
-          text-align: right;
-          margin-bottom: 2em;
-        }
-      }
-
+  h2 {
+    margin-bottom: 1em;
   }
 
+  @media (min-width: 60em) {
 
+    margin: 50% 2em 0;
+    text-align: right;
+
+    h2 {
+      margin-bottom: 3em;
+    }
+  }
+`;
+
+const facehuggerStyles = css`
+  margin-bottom: 0;
+
+  @media (min-width: 60em) {
+    margin-bottom: 2em;
+  }
+`;
+
+const buttonStyles = css`
+  border: 2px solid #fff;
+  color: ${colours.grey_blue};
+  padding: 1.1em 1em 1em 1em;
+  margin: 1em 0 1em 1em;
+  font-size: 0.7em;
+  background: transparent;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'League Spartan';
+
+  &:hover {
+    cursor: pointer;
+    background: #fff;
+  }
 `;
 
 const urls = [
@@ -114,15 +111,15 @@ const urls = [
 
 const Sidebar = ({ title, intro }) => (
   <aside className={sidebarStyles}>
-    <header>
+    <header className={headerStyles}>
       <h1>doug<wbr/>mcdonald<wbr/>.co.uk</h1>
       <h2>{intro}</h2>
-      <div className="facehugger">
+      <div className={facehuggerStyles}>
         <img src={DougHead} className="face" alt="My face" />
       </div>
-      <Link className="button primary-button" to="/">READ MY MIND</Link>
+      <Link className={`${buttonStyles} primary-button`} to="/">READ MY MIND</Link>
       <wbr/>
-      <Link className="button secondary-button" to="/shout">SHOUT AT ME</Link>
+      <Link className={`${buttonStyles} secondary-button`} to="/shout">SHOUT AT ME</Link>
       <SocialIcons urls={urls} color="rgba(255, 255, 255, 0.8)" />
     </header>
   </aside>
