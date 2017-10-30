@@ -13,10 +13,6 @@ const tagStyles = css`
   background-color: ${colours.grey};
   display: inline-block;
 
-  &:first-child {
-    margin-left: 0;
-  }
-
   @media (min-width: 60em) {
     font-size: 0.75em;
   }

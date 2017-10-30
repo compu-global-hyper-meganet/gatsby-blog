@@ -1,11 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
-import { SocialIcons } from 'react-social-icons';
-import { css } from 'emotion';
-import colours from '../colours';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
+import { SocialIcons } from 'react-social-icons'
+import { css } from 'emotion'
+import colours from '../colours'
 
-import DougHead from './../images/DougHead.fw.png';
+import DougHead from './../images/DougHead.fw.png'
+import KandD from './../images/K&D_logo_1.0-03.svg'
 
 const sidebarStyles = css`
 
@@ -108,6 +109,10 @@ const urls = [
   'https://twitter.com/dougajmcdonald',
   'https://github.com/dougajmcdonald/'
 ];
+
+const floater = css`
+  float: left'
+`;
 
 const Sidebar = ({ title, intro }) => (
   <aside className={sidebarStyles}>

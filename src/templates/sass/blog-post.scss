@@ -74,11 +74,12 @@
     blockquote {
       border-left: 0.5em solid lighten($grey, 50%);
       padding: 1em 1em 1em 0.5em;
+      margin-top: 2em;
       background-color: $off-white;
       -webkit-margin-start: 0.5em;
       -webkit-margin-end: 0.5em;
       p {
-        margin-left: 1em;
+        margin: 0.5em 0 0.5em 1em;
         overflow-wrap: break-word;
       }
     }
