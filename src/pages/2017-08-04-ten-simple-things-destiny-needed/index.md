@@ -6,6 +6,8 @@ tags: [destiny, gaming]
 draft: false
 ---
 
+![Destiny](destiny_desktop.jpg)
+
 I write this as a Destiny 1 player who played on day one, hated the game at that point and came back a few months ago having spent the last year playing The Division for much of the interim as a comparison.
 
 Sorry for the click-bait title but with Destiny 2 only moments away, I thought it was worth a quick recap of the simple issues which I can't believe Destiny 1 was still carrying 3 years after release.

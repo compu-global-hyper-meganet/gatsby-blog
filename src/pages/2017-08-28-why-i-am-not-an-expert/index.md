@@ -11,7 +11,10 @@ Working in a technical profession I am compelled to keep abreast of new tools an
 Many people I've spoken to have expressed a desire to become experts in these tools before they feel comfortable using them. This article outlines why I feel it is not appropriate in many cases to become an expert and why the benefit of trying new things outweighs the lack of experience you may have.
 
 In many ways I feel that the Facebook motto
-> Move fast and break things (which has now been amended) [Facebook changes motto](http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/)
+
+>Move fast and break things
+
+(which has now been amended) [Facebook changes motto](http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/)
 
 Is similar to what I'm promoting here it's not universally applicable there are many safety or security cases where expert knowledge is neccessary [XKCD](https://xkcd.com/1428/) sums this up nicely
 

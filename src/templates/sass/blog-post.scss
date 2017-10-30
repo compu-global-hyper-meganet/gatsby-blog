@@ -34,6 +34,11 @@
 
       img {
         width: 100%;
+
+      }
+
+      .gatsby-resp-image-wrapper {
+        margin: 2em;
       }
 
       code {
@@ -53,7 +58,7 @@
       font-weight: 400;
     }
 
-    ul> li:before { /* the custom styled bullets */
+    ul > li:before {
       content: "";
       margin-right: 10px;
       display: inline-block;
