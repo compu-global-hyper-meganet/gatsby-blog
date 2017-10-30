@@ -13,7 +13,6 @@ const tagStyles = css`
   background-color: ${colours.grey};
   display: inline-block;
 
-
   &:first-child {
     margin-left: 0;
   }
@@ -41,6 +40,10 @@ const tagColours = css`
   }
 
   .redux {
+    background-color: ${colours.redux_purple};
+  }
+
+  .dotnet {
     background-color: ${colours.redux_purple};
   }
 

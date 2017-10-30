@@ -17,28 +17,25 @@ Whilst you can sort you inventory between weapons and armour, quite how the armo
 
 Some simple grouping and sorting seems like a no-brainer, nothing official after three years? mind boggling!
 
-##2. Decryption taking your max light level
+##2. Needing to equip your highest level items during Decryption
 The tiny slot by slot inventory is ridiculous but having to constantly swap items out during decryption makes no sense.
 I accept that the current state of decryption is hugely improved from what it once was but it's still not perfect. Fortunately I believe this issue will be resolved in Destiny 2.
 
-
 ## 3. Item sharing
 Sure, Destiny isn't a trading game (pity, but there it is) however sharing items seems like it could have been helpful in enhancing community and levelling others.
-Recently, me and another friend at LL400 have been trying to help a friend level up in the hour or two he has each week.
-Nearly always we battle away at a nightfall or similar only for us to get gear we decrypt and him not to get non class exotics he can't use.
 Sharing with your fireteam for a limited time after completing an event (like The Division) seems like it wouldn't pollute the game by forcing item sales etc, but would allow a little flexibility.
 
-## 4. Crappy stats (even with the strike point system)
+## 4. Crappy game stats (even with the strike point system)
 There is so little of a way to prove in a strike or raid that you were useful!
 Kills is not detailed enough and rewards final hit hunting, I'm sure the game records accuracy, boss damage etc, but doesn't report anything.
 
 The SIVA strike / CoE points system is better, but still not enough. Even in PvP, K/D ratio has the same problem.
-Back in the say, I played Unreal Tournament '99 which had the awesome ngStats system, UT2004 still offers this I'm sure it wouldn't be too hard for Destiny to have a similar system [enter link description here](http://ut2004stats.epicgames.com/matchstats.php?match=67756011)
+Back in the day, I played Unreal Tournament '99 which had the awesome ngStats system, UT2004 still offers this I'm sure it wouldn't be too hard for Destiny to have a similar system [UT ngStats](http://ut2004stats.epicgames.com/matchstats.php?match=67756011)
 
 ## 5. Loadouts
 Tiny per slot inventory is compounded by no loadouts in game. Having to sort and organise items with no visual queues as to the difference of items massive pain.
 
-Excessive load times and the need to return to the tower or similar to access inventories is crazy. Forgetting a certain item and being in raid is basically unrecoverable in less than 10 minutes time the five waiting players is basically a wasted hour.
+Excessive load times and the need to return to the tower or similar to access the vault is crazy. Forgetting a certain item and being in raid is basically unrecoverable in less than 10 minutes time the five waiting players is basically a cumulative wasted hour.
 
 ## 6. Terrible inventory size
 Whilst the inventory size isn't quite as bad as The Division once was the limit per slot is madness! I accept that visually more than 9 / 10 is hard to show but I'm sure a UX designer could have found a way that worked!
@@ -63,12 +60,11 @@ I love the interface, it's genuinely superb, but this one thing is so annoying, 
 
 ## 10. Character names
 Esoteric perhaps, but naming characters would have been cool, add some personality to your Titan by calling him PunchyMcPunchFace or similar.
-I enjoyed the emotional attachment I had to my Paladin, "Douglaar" in WoW and I wan't to build that story up for my character again in Destiny.
+I enjoyed the emotional attachment I had to my Paladin, "Douglaar" in WoW and I want to build that story up for my character again in Destiny.
 
 It was pretty crappy in the Destiny 2 beta, to just say "one warlock please" and get the same faceless, speechless character I've played for the last few months.
-
 
 ## Summary
 This is not a Destiny bashing, these are just some seemingly simple quality of life improvements I would have expected from a game three years old with the type of following Destiny has.
 
-Totally stoked for Destiny 2 and looking forward to many of these bug-bears being fixed.
+I for one am looking forward to Destiny 2 and hoping many of these issues will be fixed.
