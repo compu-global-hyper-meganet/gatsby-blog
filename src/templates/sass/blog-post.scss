@@ -22,7 +22,7 @@
     }
 
     h2 {
-      font-family: 'Open Sans', 'sans-serif';
+      font-family: Aleo, 'Open Sans', 'sans-serif';
       font-size: 2em;
       color: $grey-blue;
       margin-top: 1.5em;
@@ -44,12 +44,24 @@
     }
 
     ul {
-      font-size: 1.4em;
+      font-size: 1em;
       line-height: 1.8em;
+      list-style: none;
     }
 
     ul > li {
       font-weight: 400;
+    }
+
+    ul> li:before { /* the custom styled bullets */
+      content: "";
+      margin-right: 10px;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: $grey-blue;
+      border-radius: 50%;
+      margin-bottom: 2px;
     }
 
     blockquote {

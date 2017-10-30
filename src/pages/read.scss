@@ -11,6 +11,17 @@
     letter-spacing: 0.3em;
   }
 
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 1em;
+    }
+
+  }
+
   .blog-post-preview {
 
     margin: 2em 0 4em 0;

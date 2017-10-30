@@ -3,7 +3,7 @@ path: "/understanding-redux"
 date: "2017-08-09T13:04:10.962Z"
 title: "Understanding redux"
 tags: [react, redux, state]
-draft: false
+draft: true
 ---
 
 ## Intro
