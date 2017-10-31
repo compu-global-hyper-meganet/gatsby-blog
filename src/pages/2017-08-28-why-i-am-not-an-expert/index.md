@@ -3,7 +3,7 @@ path: "/why-i-am-not-an-expert"
 date: "2017-08-28T19:43:55.962Z"
 title: "Why I'm not an expert"
 tags: [personal-development]
-draft: false
+draft: true
 ---
 
 Working in a technical profession I am compelled to keep abreast of new tools and techniques; however the sheer volume of new languages, frameworks, libraries and associated best practice can make this compulsion exhausting!

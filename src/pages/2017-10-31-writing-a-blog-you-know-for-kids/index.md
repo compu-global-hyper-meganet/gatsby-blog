@@ -1,12 +1,12 @@
 ---
 path: "/writing-a-blog-you-know-for-kids"
-date: "2017-10-28T12:30:55.962Z"
+date: "2017-10-31T18:15:55.962Z"
 title: "Writing a blog (you know, for kids!)"
 tags: [personal development]
 draft: false
 ---
 
-Firstly, welcome to not quite my first attempt at writing a blog. This article describes why I'm writing this blog and who it's for.
+Firstly, welcome to not quite my [first attempt](/ten-simple-things-destiny-needed) at writing a blog post. This article describes why I'm writing this blog and who it's for.
 
 ## Why write a blog?
 

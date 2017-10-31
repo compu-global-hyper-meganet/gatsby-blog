@@ -1,9 +1,9 @@
 ---
 path: "/automated-ui-testing-with-coypu"
-date: "2017-10-30T12:30:55.962Z"
+date: "2017-11-01T12:30:55.962Z"
 title: "Automated UI testing with Coypu"
 tags: [testing, dotnet]
-draft: false
+draft: true
 ---
 
 Recently I was working on a project with an immensely long multipart form (approximately 200 fields) and during this task our team established that it would be a huge time sink to need to manually regression test the form each time we made changes.

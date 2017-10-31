@@ -5,7 +5,7 @@ const Shout = () => (
   <div className="blog-container">
     <h1>CONTACT ME</h1>
     <p>
-      In the absence of a contact form, please get in touch with me via one of the following methods.
+      In the absence of a contact form, please get in touch with me via one of the following futuristic internet methods.
     </p>
     <ul>
       <li><a href="mailto:dougajmcdonald@gmail.com">dougajmcdonald@gmail.com</a></li>
