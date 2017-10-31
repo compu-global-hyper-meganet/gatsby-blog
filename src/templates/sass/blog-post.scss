@@ -2,8 +2,6 @@
 
 .blog-post {
 
-  padding: 1em;
-
   header > h2 {
     text-transform: uppercase;
     font-size: 2.2em;
@@ -36,7 +34,10 @@
 
       img {
         width: 100%;
+      }
 
+      a {
+        color: $grey-blue;
       }
 
       .gatsby-resp-image-wrapper {
@@ -117,6 +118,10 @@
 }
 
 @media (min-width: 60em) {
+
+  .blog-post {
+    padding: 1em;
+  }
 
   .comment-container {
     padding: 2em 12em 4em 4em;

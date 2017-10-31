@@ -3,7 +3,7 @@ path: "/automated-ui-testing-with-coypu"
 date: "2017-10-30T12:30:55.962Z"
 title: "Automated UI testing with Coypu"
 tags: [testing, dotnet]
-draft: true
+draft: false
 ---
 
 Recently I was working on a project with an immensely long multipart form (approximately 200 fields) and during this task our team established that it would be a huge time sink to need to manually regression test the form each time we made changes.
@@ -28,10 +28,10 @@ After a little googling, I can across this little beauty:
 
 ![Coypu](Coypu.jpg)
 
-That ladies and gentlemen is a Coypu ... It's not quite what you think, I am of course referring to the ![Coypu](https://github.com/featurist/coypu) library which offers the following
+That ladies and gentlemen is a Coypu ... It's not quite what you think, I am of course referring to the ![Coypu](https://github.com/featurist/coypu) testing library which offers the following:
 
 > Coypu supports browser automation in .Net to help make tests readable, robust, fast to write and less tightly coupled to the UI
-> If your tests are littered with sleeps, retries, complex XPath expressions and IDs dug out of the source with FireBug then Coypu might help.
+> If your tests are littered with sleeps, retries, complex XPath expressions and IDs dug out of the source with FireBug then Coypu might help. - **GitHub Readme.md**
 
 This sounded promising, as the problems with complex XPath expressions and issues with timings had been problems we'd experienced in the past.
 
@@ -75,9 +75,9 @@ PM> install-package phantomjs.exe
 
 I wanted the UI test to form part of the nightly build where we also run our SonarQube analysis. I also didn't want to slow down the CI build with the UI tests.
 
-To do this the Coypu tests were added in their own project and the project excluded from the CI build within TFS. Our project was called `Project.UI.Tests` so the exclusion in TFS looked like this.
+To do this the Coypu tests were added in their own project and the project excluded from the CI build within TFS. Our project was called `Project.UI.Tests` so the exclusion in TFS 2017 looked like this.
 
-// TODO: Add image
+![CI build unit test exclusion](ui-test-exclusion.png)
 
 ## Error reporting
 
