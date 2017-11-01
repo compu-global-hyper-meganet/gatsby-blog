@@ -14,7 +14,7 @@ In many ways I feel that the Facebook motto is similar to what I'm promoting her
 
 >Move fast and break things
 
-The motto has now been amended [Facebook changes motto](http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/) as Facebook wanted to emphasise stablity in its products and as [XKCD](https://xkcd.com/1428/) summarises it's not always appropriate!
+The motto has now been [amended](http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/) as Facebook wanted to emphasise stablity in its products and as [XKCD](https://xkcd.com/1428/) summarises it's not always appropriate!
 
 ![XKCD - Move fast and break things](move_fast_and_break_things.png)
 
