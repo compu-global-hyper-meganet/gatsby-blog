@@ -2,7 +2,7 @@
 path: "/writing-a-blog-you-know-for-kids"
 date: "2017-10-31T18:15:55.962Z"
 title: "Writing a blog (you know, for kids!)"
-tags: [personal development]
+tags: [personal-development]
 draft: false
 ---
 
