@@ -69,21 +69,6 @@ The former is how I remember writing raw Selenium tests and the latter is how I 
 
 Finally, one of the cleverer bits of Coypu that it handles the faff of waiting for requests to resolve before performing it's assertations. In the code above, the `Save and continue` button causes a full post-redirect-get cycle on the server, but Coypu doesn't care, it just handles the page refresh and allows us to `Assert` content on the next page.
 
-## Setup
-
-Setup with Coypu is simple and hassle free, simply install the nuget package and NUnit and you're (more or less) good to go.
-
-In the past we had experienced issues with different browsers on the build server but fortunately Coypu plays happily with PhantomJS which was to be our test target so we've added that package too.
-
-Finally if you want the snazzy NUnit matchers you need to install the `coypu.nunit` package too. The complete package install looks like this:
-
-```csharp
-PM> install-package nunit
-PM> install-package coypu
-PM> install-package Coypu.NUnit
-PM> install-package phantomjs.exe
-```
-
 ## Automation
 
 I wanted the UI test to form part of the nightly build where we also run our [SonarQube](https://www.sonarqube.org/) analysis. I also didn't want to slow down the CI build with the UI tests.
