@@ -54,8 +54,18 @@ public void it_can_enter_the_full_name() {
 
 We really liked the simplicity of the `Visit`, `FillIn`, `With` and `ClickButton`, Coypu wraps up many of the problems we'd seen in the past with form completion like locating items without needing to interrogate the DOM and ensuring pages had loaded before verifying that items exist.
 
-In the snippet above, the `FillIn()` function will match `input` elements on the page by label text, id, name (except radio buttons), placeholder or radio button value which means we didn't need to open the dev tools or IDE to find our element. Our testers could write the selectors by visually scanning the UI.
-Similarly, the button for `ClickButton()` is located by value/text, id or name making it quick and easy to find the controls.
+In the snippet above, the `FillIn()` function will match `input` elements on the page by `label text`, `id`, `name`, `placeholder` or radio button value which means we didn't need to open the dev tools or IDE to find our element. Similarly, the button for `ClickButton()` is located by `value/text`, `id` or `name`.
+The ability to locate items by button text and form labels is a massive win as it means testers can write selectors by viewing the UI rather than using browser dev tools and write tests using language the customer understands.
+
+Coypu does allow you to use more complex CSS or XPath selectors if you want to, but it's generally not needed, which would you rather?
+
+>`browser.FindCss(".menu.submenu", text: "Help")`
+
+or
+
+>`browser.ClickLink("Help")`
+
+The former is how I remember writing raw Selenium tests and the latter is how I always wanted to. The former relies on the implementation of your menu, the latter doesn't.
 
 Finally, one of the cleverer bits of Coypu that it handles the faff of waiting for requests to resolve before performing it's assertations. In the code above, the `Save and continue` button causes a full post-redirect-get cycle on the server, but Coypu doesn't care, it just handles the page refresh and allows us to `Assert` content on the next page.
 
