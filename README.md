@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/63951aad85bdc644dbf39cdec222315d/s/master "wercker status")](https://app.wercker.com/project/byKey/63951aad85bdc644dbf39cdec222315d)
+
 [![wercker status](https://app.wercker.com/status/63951aad85bdc644dbf39cdec222315d/m/master "wercker status")](https://app.wercker.com/project/byKey/63951aad85bdc644dbf39cdec222315d)
 
 # dougmcdonald.co.uk - gatsby blog
