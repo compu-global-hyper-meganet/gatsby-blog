@@ -19,6 +19,11 @@ const tagStyles = css`
 `;
 
 const tagColours = css`
+
+  .azure {
+    background-color: ${colours.azure_blue};
+  }
+
   .devops {
     background-color: ${colours.yellow};
   }
@@ -47,6 +52,11 @@ const tagColours = css`
     background-color: ${colours.off_white};
     color: ${colours.grey};
   }
+
+  .webfonts {
+    background-color: ${colours.webfont_red};
+  }
+
 `;
 
 
