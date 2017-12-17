@@ -35,9 +35,9 @@ build:
     # deploy to azure
     - wercker-labs/azure-ftp-deploy:
         cwd: public/
-        publish-url: ftp://waws-prod-am2-001.ftp.azurewebsites.windows.net/site/wwwroot
-        username: dougmcdonald
-        password: gAwXcLMWrpQl7jv3TJ10mbxT0Eg38RYf3ckzsouLulfbA8pvZP909BFM5vuh
+        publish-url: $publish_url
+        username: $username
+        password: $password
 
     # A custom script step, name value is used in the UI
     # and the code value contains the command that get executed
