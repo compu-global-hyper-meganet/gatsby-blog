@@ -13,7 +13,7 @@ Mobile first design
 - clone the repo
 - npm i (pray you have all the annoying node-gyp setup on windows)
 - gatsby develop
-  - access (localhost:8000)[localhost:8000]
+  - access [localhost:8000](localhost:8000)
 
 
 ## Deployment
