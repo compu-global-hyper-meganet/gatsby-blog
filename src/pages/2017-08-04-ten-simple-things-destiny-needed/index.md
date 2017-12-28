@@ -3,7 +3,7 @@ path: "/ten-simple-things-destiny-needed"
 date: "2017-08-04T20:56:55.962Z"
 title: "Ten simple things Destiny 1 needed"
 tags: [destiny, gaming]
-draft: false
+draft: true
 ---
 
 ![Destiny](destiny_desktop.jpg)
