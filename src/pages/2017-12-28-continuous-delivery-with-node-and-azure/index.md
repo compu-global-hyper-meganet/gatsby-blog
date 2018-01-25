@@ -83,6 +83,9 @@ Our second step, is from the [Wercker Step Registry](https://app.wercker.com/exp
 The other three parameters are the FTP publish url, username and password to use for the transfer.
 
 > You can get these values from the publish profile in Azure either [via powershell](https://msdn.microsoft.com/en-us/library/dn414650(v=nav.90).aspx) or by logging into the Portal selecting your app service and finding the link at the top.
+
+> Note: If your username is `awesomeapp\$awesomeapp` Azure will allow `awesomeapp` as the username, to avoid Wercker issues with the special characters.
+
 ![Azure publish profile from UI](get_publish_profile.png)
 
 ### Secrets
