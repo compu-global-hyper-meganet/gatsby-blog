@@ -113,6 +113,8 @@ We now have a container which has a custom processor, our template available and
 
 This makes it as simple as `docker run <image>` when another team member wants to run the NiFi instance.
 
+This article is also posted at [BMT Reality Studios](https://www.bmtrealitystudios.com/dockerising-nifi/)
+
 
 
 
