@@ -28,7 +28,8 @@ build:
     - script:
       name: gatsby build
       code: |
-        npm install gatsby-cli -g
+        npm install -g gatsby-cli
+        npm install -g node-gyp
         npm i
         gatsby build
 
