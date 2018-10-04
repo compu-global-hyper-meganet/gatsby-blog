@@ -3,7 +3,7 @@ path: "/experimenting-with-mob-programming"
 date: "2018-10-04T20:59:52.322Z"
 title: "Experimenting with Mob Programming"
 tags: [agile, extreme programming]
-draft: true
+draft: false
 ---
 
 At [BMT](https://www.bmt.org/) we hold an annual hackathon for employees where we can spend three days working on something we don't normally do.
