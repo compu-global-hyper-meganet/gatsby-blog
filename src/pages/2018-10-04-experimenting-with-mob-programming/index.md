@@ -53,56 +53,39 @@ The process when outlines was quite a long way from our standard day to day proc
 - "Can we actually get anything done?"
 - "Isn't this going to be slower?"
 - "What do we do when we don't know what to type?"
+- "What do we do if a team member isn't there?"
 
-## Automating the workflow
+## What happened
 
-To automate the process of adding a template through the web interface and starting the process we must first start our container and manually get it to the state we want it to be when we start it later on.
+We started by deciding on our environment and tools. We were writing a web app which is something we we're familiar with but one of our hypothesis was that through group knowledge we could use a tool or technique as long as at least one person knew enough about it to guide others.
 
-```bash
-docker build -t nifitest .
-docker run -p 8080:8080 -d nifitest
-```
+We opted for [VS Code](https://code.visualstudio.com/) as an editor which two of our team had never used.
 
-You should now be able to load the web interface and add the template we added earlier; we can then click `play` to get our workflow running.
+After deciding on our IDE we chose to use React & Create React App to scaffold the start of our application. Two of our number were new to these tools and we intentionally started with those two at the keyboard so they would get experience of setting up the project from scratch.
 
-Now it's in a running state we need to copy that state out somehow, this is the bit which isn't documented too well! The state of the NiFi is stored in `flow.xml.gz` which lives in `/opt/nifi/nifi-1.6.0/conf/`.
+What's interesting is that the three more experienced developers naturally started explaining not only how to achieve tasks, but what was happening, "now it's installing the dependencies", "you get a skeleton test setup out of the box" etc.
 
-To copy that file out of the container we can start an interactive `bash` by first listing the `container_id` and then running the following commands:
+## Hitting a problem
 
-```bash
-docker ps -a
-docker exec -it <container_id> /bin/bash/
-```
+As we moved through the initial setup we reached a point where we'd written a client side app and had a [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) issue, this was our first experience of hitting a problem with several possible solutions.
 
-This will put us into the container, we can then run the following command to copy out the `flow.xml.gz`
+We naturally stopped typing and time ticked away as we discussed possible options. As a group we decided that we would stop the timer if we weren't actively typing code to ensure that people still had typing equality.
 
-```bash
-docker cp <container_id>:/opt/nifi/nifi-1.6.0/conf/flow.xml.gz flow.xml.gz
-```
+One important observation is that as we discussed hacky workarounds such as tweaking the browser security settings (it was a hackathon after all!) the group organically came to the conclusion that "we may as well do it properly". I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual "to save time".
 
-We now have a copy of our NiFi state. Next we need to use that state when we run our container. To do this we can use `COPY` again to copy the file back in each time we start the container.
+Interestingly we then started by using the `express` generator and decided that it was overkill for the single endpoint we needed, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
 
-> NOTE: COPY always copies as root so the user the container runs as (nifi:nifi) won't have access to the file once we copy the file in. We can run a `--chown` at the same time to give ownership to the `nifi` user.
+I feel these messages weren't just broadcast as at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate then in part of your team.
 
-```docker
-FROM apache/nifi:latest
-
-COPY our_process.nar /opt/nifi/nifi-1.6.0/lib/
-
-COPY our_workflow.xml /opt/nifi/nifi-1.6.0/conf/templates
-
-COPY --chown=nifi:nifi flow.xml.gz /opt/nifi/nifi-1.6.0/conf/
-
-EXPOSE 8080
-```
+##
 
 ## Summary
 
-We now have a container which has a custom processor, our template available and the template loaded into the workflow and started.
+We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
-This makes it as simple as `docker run <image>` when another team member wants to run the NiFi instance.
+We will continue experimenting and feed back progress, give it a go yourself, I'd love to know what you think.
 
-This article is also posted at [BMT Reality Studios](https://www.bmtrealitystudios.com/dockerising-nifi/)
+This article is also posted at [BMT Reality Studios](https://www.bmtrealitystudios.com/experimenting-with-mob-programming/)
 
 
 
