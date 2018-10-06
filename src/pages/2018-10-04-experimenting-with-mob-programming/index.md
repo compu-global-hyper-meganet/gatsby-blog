@@ -77,13 +77,20 @@ Interestingly we then started by using the `express` generator and decided that 
 
 I feel these messages weren't just broadcast as at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate then in part of your team.
 
-##
+## Running out of content
+
+As we developed more of our app, we eventually hit a point where we weren't sure what to do next. Firstly this manifested as knowing what we wanted to *do* but not knowing how to achieve it without research. In these cases we tended to collectively research on other laptops, sometimes it was helpful if the typer took a couple of minutes to look something up on behalf of the team and then continue, but with larger issues we took the approach of having the team research independently and then re-instruct the typer once we found a solution.
+
+We didn't find a perfect way of doing this but seeing as the whole team was looking for a solution, we generally found the relevant API page, or example within a few minutes.
+
+The second form of undefined content was when we literally didn't know what to do next, we hadn't lined up the next feature, or that feature was poorly defined. In these cases we stopped development and the timer and went back to discussion and whiteboards.
+Personally I found whiteboards invaluable here as it was a good way to both illustrate and idea to discuss, but then leave something for reference which everyone could see.
 
 ## Summary
 
 We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
-We will continue experimenting and feed back progress, give it a go yourself, I'd love to know what you think.
+We will continue experimenting and feed back progress, give it a go yourself, We'd love to know what you think.
 
 This article is also posted at [BMT Reality Studios](https://www.bmtrealitystudios.com/experimenting-with-mob-programming/)
 
