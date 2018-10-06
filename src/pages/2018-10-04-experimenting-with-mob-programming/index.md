@@ -7,18 +7,17 @@ draft: false
 ---
 
 At [BMT](https://www.bmt.org/) we hold an annual hackathon for employees where we can spend three days working on something we don't normally do.
-
-The aim is to develop new skills, work with new people and generally have a good time. It can be quite hard work but the experience in invaluable.
+The aim is to develop new skills, work with new people and generally have a good time.
 
 ## Meta hack
 
-Personally I wanted to explore the process of software development and opted setup a team to experiment with [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming) as this is not typically a process we would use. Whilst our aim was to develop a product which could be shipped, we would do it as a Mob and see what we could learn.
+I wanted to explore the _process_ of software development and opted setup a team to experiment with [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming) as this is not typically a process we would use. Whilst our aim was to develop a product which could be shipped, we would do it as a Mob and see what we could learn.
 
 ## Mob Programming?
 
 Mob programming is an extreme/agile programming approach where the whole team works on the same time in the same place at the same time as described by [Woody Zuill](https://www.youtube.com/watch?v=SHOVVnRB4h0).
 
-This can be interpreted in different ways as many agile principals but we implemented `Mobbing` as our whole team working in the same room, with a single monitor and keyboard and having a single team member typing at any one point in time, rotating the role of 'Scribe' at a set interval.
+This can be interpreted in different ways as many agile principals but we implemented `Mobbing` as our whole team working in the same room, with a single monitor and keyboard and having a single team member typing at any one point in time, rotating the role of *Typer* at a set interval.
 
 Specifically we chose:
 
@@ -38,9 +37,9 @@ Beyond this, we hoped to achieve the following:
 - Shared ownership - Less individual stress and pressure because the team is equally responsible for delivering
 - No significant slowdown in output - Whilst in theory one person typing is slower than 5, other efficiencies can be realised, such as: no merge conflicts, no dependencies on development in serial, no configuration inconsistencies
 
-## Potential worries
+## Potential concerns
 
-The process when outlines was quite a long way from our standard day to day process. There were some initial worries, typical questions might include:
+The Mob Programming process is quite a long way from our standard day to day development practices. There were some initial worries, typical concerns include:
 
 > "Can we actually get anything done?"
 
@@ -52,17 +51,17 @@ The process when outlines was quite a long way from our standard day to day proc
 
 ## What happened
 
-We started by deciding on our environment and tools. We were writing a web app which is something we we're familiar with but one of our hypothesis was that through group knowledge we could use a tool or technique as long as at least one person knew enough about it to guide others.
+We started by deciding on our environment and tools. We were writing a web app which is something we we're familiar with but our ethos was that through group knowledge we could use a tool or technique as long as at least one person knew enough about it to guide others.
 
 We opted for [VS Code](https://code.visualstudio.com/) as an editor which two of our team had never used.
 
 After deciding on our IDE we chose to use React & Create React App to scaffold the start of our application. Two of our number were new to these tools and we intentionally started with those two at the keyboard so they would get experience of setting up the project from scratch.
 
-What's interesting is that the three more experienced developers naturally started explaining not only how to achieve tasks, but what was happening,
+What's interesting is that the more experienced developers naturally started explaining not only how to achieve tasks, but what was happening,
 
 > "now it's installing the dependencies"
 
->  "you get a skeleton test setup out of the box"
+> "you get a skeleton test setup out of the box"
 
 ## Hitting a problem
 
@@ -74,7 +73,7 @@ One important observation is that as we discussed hacky workarounds such as twea
 
 >"we may as well do it properly"
 
- I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual "to save time".
+ I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual *"to save time"*.
 
 Interestingly we then started by using the `express` generator and decided that it was overkill for the single endpoint we needed, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
 
