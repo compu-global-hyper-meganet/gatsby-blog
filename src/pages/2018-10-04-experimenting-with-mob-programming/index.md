@@ -33,7 +33,7 @@ Beyond this, we hoped to achieve the following:
 - Common agreed approach - The team must agree the route forward, people can't [go rogue](https://www.merriam-webster.com/words-at-play/were-going-rogue) or implement changes which the team doesn't want.
 - Learn from each other - everything from technical approach to keyboard shortcuts
 - Shared ownership - Less individual stress and pressure because the team is equally responsible for delivering
-- No significant slowdown in output - Whilst in theory one person typing is slower than 5, other efficiencies can be realised, such as: no merge conflicts, no dependencies on development in serial, no configuration inconsistencies
+- No significant slowdown in output - Whilst in theory one person typing is slower than 5, other efficiencies can be realised, such as: no merge conflicts, no dependencies on development in serial and no configuration inconsistencies
 
 ## Potential concerns
 
@@ -75,7 +75,7 @@ One important observation is that as we discussed hacky workarounds such as twea
 
 Interestingly we then started by using the `express` generator but decided it was overkill, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
 
-I feel these messages weren't just broadcast as at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate them in part of your team.
+I feel these messages weren't just broadcast at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate them in part of your team.
 
 ## Running out of content
 
