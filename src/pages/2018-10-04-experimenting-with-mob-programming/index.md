@@ -8,15 +8,7 @@ draft: false
 
 At [BMT](https://www.bmt.org/) we hold an annual hackathon for employees where we can spend three days working on something we don't normally do.
 
-The aim is to develop new skills, work with new people and generally have a good time. It can be quite hard work but the experience in invaluable, previous years have included projects such as:
-
-- Dogecopter - A quadcopter with image recognition / autonomous navigation capabilities (well, in theory)
-- Sodalicious - A 3D printed drinks dispenser with partnering mobile website to take orders
-- Sentimental - A sentiment analysis engine which consumes tweets, analyses their sentiment and plots a happiness (or sadness) map!
-
-![Docker logo](docker-logo.png)
-
-This year some of the ideas included designing a virtual reality interface for astronauts, teaching a machine learning algorithm to play retro computer games and using genetic algorithms to play flappy bird!
+The aim is to develop new skills, work with new people and generally have a good time. It can be quite hard work but the experience in invaluable.
 
 ## Meta hack
 
@@ -50,10 +42,13 @@ Beyond this, we hoped to achieve the following:
 
 The process when outlines was quite a long way from our standard day to day process. There were some initial worries, typical questions might include:
 
-- "Can we actually get anything done?"
-- "Isn't this going to be slower?"
-- "What do we do when we don't know what to type?"
-- "What do we do if a team member isn't there?"
+> "Can we actually get anything done?"
+
+> "Isn't this going to be slower?"
+
+> "What do we do when we don't know what to type?"
+
+> "What do we do if a team member isn't there?"
 
 ## What happened
 
@@ -63,7 +58,11 @@ We opted for [VS Code](https://code.visualstudio.com/) as an editor which two of
 
 After deciding on our IDE we chose to use React & Create React App to scaffold the start of our application. Two of our number were new to these tools and we intentionally started with those two at the keyboard so they would get experience of setting up the project from scratch.
 
-What's interesting is that the three more experienced developers naturally started explaining not only how to achieve tasks, but what was happening, "now it's installing the dependencies", "you get a skeleton test setup out of the box" etc.
+What's interesting is that the three more experienced developers naturally started explaining not only how to achieve tasks, but what was happening,
+
+> "now it's installing the dependencies"
+
+>  "you get a skeleton test setup out of the box"
 
 ## Hitting a problem
 
@@ -71,7 +70,11 @@ As we moved through the initial setup we reached a point where we'd written a cl
 
 We naturally stopped typing and time ticked away as we discussed possible options. As a group we decided that we would stop the timer if we weren't actively typing code to ensure that people still had typing equality.
 
-One important observation is that as we discussed hacky workarounds such as tweaking the browser security settings (it was a hackathon after all!) the group organically came to the conclusion that "we may as well do it properly". I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual "to save time".
+One important observation is that as we discussed hacky workarounds such as tweaking the browser security settings (it was a hackathon after all!) the group organically came to the conclusion that
+
+>"we may as well do it properly"
+
+ I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual "to save time".
 
 Interestingly we then started by using the `express` generator and decided that it was overkill for the single endpoint we needed, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
 
@@ -91,3 +94,37 @@ Personally I found whiteboards invaluable here as it was a good way to both illu
 We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
 We will continue experimenting and feed back progress, give it a go yourself, We'd love to know what you think.
+
+## Appendix
+
+For anyone who's interested the app we wrote is on [GitHub](https://github.com/bmtwebdevs/tradeoff).
+
+Here is a list of quote I captured over the 3 days:
+
+> "I’m  having  too  much  fun"
+
+> "That’s  a  game  changer"
+
+>"This  is  a  really  good  learning  exercise"
+
+> "I  feel  like  I’m  getting  a  free  coding  lesson  /  training"
+
+> "This  would  be  really  good  for  complex  stuff"
+
+> "Insert  `<code>`  on  line  8.5"
+
+> "What  awesome  feature  are  we  doing  next?"
+
+> "Squirly  braces"
+
+> "How  do  I  do  that?"
+
+> "You  can  do  that  with  <shortcut>"
+
+> "What’s  a  back-tick?"
+
+> "Did  we  ask  you  to  type  that?"
+
+> "If  my  work  day  was  like  this  every  day,  I’d  be  loving  life"
+
+> "Where  is  the  *&(*£&ing  hash  key"
