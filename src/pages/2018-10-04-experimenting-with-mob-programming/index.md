@@ -6,10 +6,8 @@ tags: [agile, extreme programming]
 draft: false
 ---
 
-At [BMT](https://www.bmt.org/) we hold an annual hackathon for employees where we can spend three days working on something we don't normally do.
+At [BMT](https://www.bmt.org/) we hold an annual [Hackathon](https://en.wikipedia.org/wiki/Hackathon) for employees where we can spend three days working on something we don't normally do.
 The aim is to develop new skills, work with new people and generally have a good time.
-
-## Meta hack
 
 I wanted to explore the _process_ of software development and opted setup a team to experiment with [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming) as this is not typically a process we would use. Whilst our aim was to develop a product which could be shipped, we would do it as a Mob and see what we could learn.
 
@@ -73,22 +71,28 @@ One important observation is that as we discussed hacky workarounds such as twea
 
 >"we may as well do it properly"
 
- I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of shortcuts you may be able to sneak in as an individual *"to save time"*.
+ I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of hacks you may be tempted to sneak in as an individual *"to save time"*.
 
-Interestingly we then started by using the `express` generator and decided that it was overkill for the single endpoint we needed, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
+Interestingly we then started by using the `express` generator but decided it was overkill, deleted the whole thing and then wrote a Node back-end in a few lines. Again, our attitude as the team was that we didn't need all that extra view and routing code and the redundant code was not helpful.
 
-I feel these messages weren't just broadcast as at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate then in part of your team.
+I feel these messages weren't just broadcast as at that point in time, but would actually sink in as a general attitude to development. What better way to demonstrate your approaches and attitudes to quality than to actively demonstrate them in part of your team.
 
 ## Running out of content
 
-As we developed more of our app, we eventually hit a point where we weren't sure what to do next. Firstly this manifested as knowing what we wanted to *do* but not knowing how to achieve it without research. In these cases we tended to collectively research on other laptops, sometimes it was helpful if the typer took a couple of minutes to look something up on behalf of the team and then continue, but with larger issues we took the approach of having the team research independently and then re-instruct the typer once we found a solution.
+As we developed more of our app, we hit a point where we weren't sure what to do next. Firstly this manifested as knowing what we wanted to *do* but not knowing how to achieve it without research. Sometimes it was helpful if the *typer* took a couple of minutes to look something up on behalf of the team, but with larger issues we took the approach of having the team research independently and then re-instruct the *typer* once we found a solution; seeing as the whole team was looking for a solution, we generally found the relevant API page, or example within a few minutes.
 
-We didn't find a perfect way of doing this but seeing as the whole team was looking for a solution, we generally found the relevant API page, or example within a few minutes.
-
-The second form of undefined content was when we literally didn't know what to do next, we hadn't lined up the next feature, or that feature was poorly defined. In these cases we stopped development and the timer and went back to discussion and whiteboards.
+The second manifestation was when we hadn't lined up the next feature or that feature was poorly defined. In these cases we stopped development and the timer and went back to discussion and whiteboards.
 Personally I found whiteboards invaluable here as it was a good way to both illustrate and idea to discuss, but then leave something for reference which everyone could see.
 
+Typically this took the form of one person drawing a solution and presenting it to the team, who then questioned it. Sometimes a second person would join the drawing to amend or correct. At this point, we found our team had a psuedo demoncratic process of acceptance where people would pretty much vote yes / no if they were happy to proceed.
+
 ## Summary
+
+We learnt a lot as a team, both how to perform tasks and how to explain processes, clear communication was critical, especially when instructing the *typer*. For example, asking the *typer* to insert content between two lines ended up as:
+
+> "Insert  `<code>`  on  line  8.5"
+
+Whilst there are some possible issues, particularly around team members who are naturally more introverted I believe an understanding team can find a way to ensure their voice is heard.
 
 We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
@@ -109,8 +113,6 @@ Here is a list of quote I captured over the 3 days:
 > "I  feel  like  I’m  getting  a  free  coding  lesson  /  training"
 
 > "This  would  be  really  good  for  complex  stuff"
-
-> "Insert  `<code>`  on  line  8.5"
 
 > "What  awesome  feature  are  we  doing  next?"
 
