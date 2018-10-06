@@ -91,9 +91,3 @@ Personally I found whiteboards invaluable here as it was a good way to both illu
 We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
 We will continue experimenting and feed back progress, give it a go yourself, We'd love to know what you think.
-
-This article is also posted at [BMT Reality Studios](https://www.bmtrealitystudios.com/experimenting-with-mob-programming/)
-
-
-
-
