@@ -94,9 +94,11 @@ We learnt a lot as a team, both how to perform tasks and how to explain processe
 
 Whilst there are some possible issues, particularly around team members who are naturally more introverted I believe an understanding team can find a way to ensure their voice is heard.
 
-We really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
+The team really enjoyed our time Mob Programming and would seriously think about adopting this on other projects, either as a learning task, or during initial design sessions.
 
 We will continue experimenting and feed back progress, give it a go yourself, We'd love to know what you think.
+
+This post is also visible at [https://www.bmtrealitystudios.com/experimenting-mob-programming/](https://www.bmtrealitystudios.com/experimenting-mob-programming/)
 
 ## Appendix
 
