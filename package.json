@@ -15,7 +15,7 @@
     "gatsby-remark-prismjs": "^1.2.8",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.11.0",
     "react-disqus-thread": "^0.4.0",
     "sharp": "^0.20.3",
     "typeface-aleo": "0.0.31",
